@@ -1,0 +1,545 @@
+#+title: Arkham Horror LCG Rules
+#+author: BoingoBoiActual
+
+* Learn to Play
+** First Game Setup
+   To set up the first game, perform the following steps in order. The game is best learned with one or two players.
+   1. *Choose Investigator(s)*. Each player chooses an investigator and places that investigator's card in his or her play area. For the first game, it is recommended that one player use Roland Banks. If there is a second player, it is recommended that that player use Wendy Adams.
+   2. *Choose one of those investigators to be the lead investigator for this game, and give that player the Campaign Guide.*
+      - /The lead investigator is the player who will break ties and make decisions for the group whenever there is a conflict./
+   3. *Assemble and shuffle the player decks*. The cards used in each of the recommended investigators' starter decks are detailed in the "Investigaror Starter Decks" entry.
+      - /Some cards have an upgraded version with one or more white pips in the upper left-hand cornder of the card. When building these starter decks, *do not* include these upgraded version./
+   4. *Assemble the token pool.* Place the damage, horror, clue/doom, and resource tokens within easy reach of all investigators.
+      - /The token pool serves as a repository for all tokens that are not being used at a given moment/
+   5. *Assemble the chaos bag.* Place the 16 chaos tokens indicated below into an opaque container such as a bag, bowl, or cup. This container is referred to as the "chaos bag." Return the other chaos tokens to the game box. +1, 0, 0, -1, -1, -1, -2, -2, -3, -4, S, S, C, T, F, E
+      - /Throughout the game, the investigators are asked to randomly reveal tokens from the chaos bag to modify their chances of success or failure in a variety of situations./
+   6. *Take starting resources.* Each investigator takes 5 resources from the token pool and places them near his or her investigator card. This is the investigator's resource pool.
+      - /Resources are spend by an investigator to play cards from his or her hand./
+   7. *Draw opening hands.* Each investigator draws 5 cards from his or her deck. If a weakness card is drawn at any point during this step, set it aside instead of adding it to your hand, draw an additional  card, and then shuffle the weakness back into your deck.
+      - /Each player may take a single mulligan at this time, if desired, by setting aside up to 5 of the cards just drawn, drawing an equivalent number of cards, and shuffling the set-aside cards back into his or her deck. Taking a mulligan is recommended if a player does not recieve a decent starting hand. For instance, drawing no assets would be a good reason to take a mulligan./
+** Scenario Setup (First Game Setup Continued)
+    The following steps refer to scenario-specific information for the first scenario in the /Night of the Zealot/ campaign.
+   8. *Read the scenario introduction for "The Gathering."* The introduction for this scenario is the italicized flavor text in the beginning of /Night of the Zealot/ Campaign Guide, under "Part 1: The Gathering."
+      - /The scenario introduction provides a narrative hook for the tale that is about to unfold. Pay attention to such narrative passages, both in the Campaign Guide and itn card flavor text, as important details may be revealed that inform or add contet for decisions made later in the scenario./
+   9. *Find the scenario cards for "The Gathering"* The encounter sets used in this scenario are: /The Gathering/, /Rats/, /Ghouls/, /Striking Fear/, /Ancient Evils/, and /Chilling Cold/. The cards in each encounter set have a symbol identifying them as part of that encounter set. In the Campaign Guide, this information is presented in the following manner: 
+      - Gather all cards from the following encounter sets: /The Gathering/, /Rats/, /Ghouls/, /Striking Fear/, /Ancient Evils/, and /Chilling Cold/. The book also includes icons for identification.
+      - /When gathering encounter cards, gather all copies of each card in the listed encounter set. Use the encounter set numbers at the bottom of each encounter card to aid you./
+   10. *Set agenda deck.* Assemble the agenda deck (in sequential order so that "agenda 1a" is on top, "agenda 2a" is next, etc.) using the agenda cards from the encounter sets found curing step 9. Read the story text on agenda 1a.
+      - /The agenda deck represents the progress made by the dark forces of the Mythos. Generally, the investigators do *not* want the agenda deck to advance./
+   11. *Set act deck.* Assemble the act deck (in sequential order so that "act 1a" is on top, "act 2a" is next, etc.) using the act cards from the encounter sets found during step 9. Read the story text on act 1a.
+      - /The act deck represents porgress made by the investigators toward solving the mystery or achieving their objectives in a scenario. Generally, the investigators *want* the act deck to advance./
+   12. *Place the scenario reference card for "The Gathering" next to the agenda deck.* Use the "easy/standard" side for this tutorial.
+      - /This card is referenced each time a S, C, or T token is selected from the chaos bag to indicate how that token affects the game state./
+   13. *Put the Study into play.* When a location is put into play, it always enters play with its *unrevealed* side faceup. The unrevealed side of a location can be identified by the presence of a keyhole symbol below its title.
+      - /Read the flavor text on the unrevealed side fo the Study at this time./
+   14. *Set every other location aside, out of play.* These cards are the Hallway, Attic, Cellar, and Parlor.
+      - /When the players are instructed to "set aside" encounter or player cards, those cards are not used right away but should be kept close at hand, as they may be needed at a later point during a scenario./
+   15. *Each investigator begins play in the Study.* Place each investigator's mini card next to the Study to represent that each investigator is in the Study.
+      - /When an investigator enters (or begins play at) a location, flip that location to its *Revealed* side. The revealed side of a location can be identified by the presence of shroud and clue values. When a location is revealed, place clues on it equal to its clue value, which, for the Study, is 2 clues per investigator. The shroud value is located on the left center, the clue value is located on the right center./
+   16. *Set the Ghoul Priest and Lita Chantler cards aside, out of play.*
+   17. *Assemble the encounter deck.* Take the remainder of the cards found during step 9, and shuffle them together to create the encounter deck. 
+      - /Throughout the game, investigators will draw encounter cards from this deck representing perils, monsters, madnesses, and other afflictions they must overcome in order to succeed./
+      A diagram of a suggested play area is presented on the following page.
+   18. *The game is ready to begin.*
+
+** Key Concepts
+   This section introduces a number of foundational concepts important to learning and playing the game.
+*** The Golden Rule
+    If the text on a card directly contradicts the text of the rules, the text on the card takes precedence. If it is possible to observe both the card text and the text of the rules, both are observed.
+*** Choices and Conflicts
+    If the players are required to make a choice among two or more equally valid options, the lead investigator chooses among those options.
+    If the players are unsure how to resolve a rule or timing conflict, resolve the conflict in the manner the players percieve as the worst possible at the moment with regards to winning the scenario, and continue with the game. This is known as "The Grim Rule" and using this rule helps to keep the game moving without forcing the players to look up every conflict they discover.
+*** Winning and Losing
+    As the players advance through a scenario, they will eventually reach a resolution. Some of these resolutions are favorable; others are less favorable and leave the investigators in a more dire situation.
+    The act deck represents the progress of the investigators through a scenario. The players' primary objective is to gather clues and use them to advance through the act deck until a resolution is reached.
+    The agenda deck represents the objectives and progress of the malicious forces pitted against the investigators in the scenario. Should the agenda deck reach its conclusion, a resolution will occur.
+    When any encounter card triggers a resolution - denoted by the text "(->R#)" - the players have completed the scenario and should refer to the resolution text that matches that number in the Campaign Guide to discover what happens next.
+    Should all investigators be eliminated during a scenario, the "if no resolution was reached" conclusion in the Campaign Guide is used.
+*** "In Player Order"
+    The phrase "in player order" is used to dictate the order in which players resolve or execute a game step. When players are instructed to do something "in player order", the lead investigator does so first, followed by each other player, one player at a time, in clockwise order around the table.
+*** Per Investigator
+    The Inv symbol next to a value multiplies that value by the number of investigators who started the scenario. The number of clues that are placed on a location and the number of clues necessary to advance the current act are often denoted with this symbol.
+*** Ready and Exhausted
+    Cards enter play in a ready position (upright, so that the ability text can be read from left to right). In ordre to use some card abilities, the card must exhaust, which is indicated by rotating the card 90 degrees. A card in the exhausted position is not able to exhaust again until it is ready (either by game step or card ability).
+*** Locations
+    Locations represent the various places the investigators travel to during a scenario while looking for clues. Each locaiton has two sides: a revealed side and an unrevealed side. The revealed side of a locaiton has a shroud value and a clue value. The unrevealed side does not show this information, and it has a keyhole symbol below its title.
+    A location enters play unrevealed side faceup. When an investigator enters a location for the first time, it is revealed, and a number of clues equal to that location's clue value are places on that locaiton. This may occur during setup if the investigators begin play at a location, or if the setup rules instruct the players to reveal a location.
+*** Skills and Skill Tests
+    Each investigator possesses four skills: Willpower, Intellect, Combat, and Agility. The higher an investigator's value for a particular skill, the better that investigator is at performing tasks with that skill.
+    A number of situations require an investigator to make a *skill test*. A skill test pits the investigator's value in a specified skill agains a difficulty value determined by the ability or game step that initiated the test. To perform a skill test, a player reveals a random chaos token from the chaos bag, which modifies his or her skill value. If the modified skill value equals or exceeds the test's difficulty, the investigator succeeds at the test. The consequences of succeeding at or failing a test are provided by the card or aciton that initiated the test.
+**** Modifying Skill Value for Skill Tests
+    Before drawing a chaos token for a skill test, the investigator /may/ boost his or her skill balue. There are two ways to do this:
+    First, the investigator may commit eligible cards from his or her hand to the test. An eligible card bears one or more icons matching the skill type of the test being performed. A wild icon "?" matches all skill types. Each matching icon commited to a test increases the investigator's skill value by 1 for that test. The investigator performing the test may commit any number of cards from his or her hand to the test. Each /other/ investigator at the same location as that investigator may commit 1 card from his or her hand to help.
+    Do not pay a card's resource cost when committing it to a skill test.
+    In addition, the investigator may activate FT (Free Trigger) abilities to modify his or her skill for a test.
+**** Chaos Token Effects
+    Each chaos token has a symbol or numerical modifier that influences the outcome of a skill test. The effect of each chaos token is described as follows.
+    S(Skull), C(Cultist), T(Tablet), O(Old One) - Refer to the scenario reference card and resolve the corresponding effect.
+    E(Elder Sign) - Refer to your investigator card and resolve your investigator's E ability.
+    F(Failure) - Indicates an automatic failure of the skill test.
+    If the revealed chaos token (or the effect referenced by a chaos token) has a numerical modifier, that modifier is applied to the investigator's skill value for this test.
+**** Concluding a Skill Test
+    If the investigator's modified skill value is equal to or higher than the difficulty value of the skill test, the investigator succeeds at the test. Otherwise, the investigator fails. The ability or game step taht initiated the skill test provides instructions for the consequences of succeeding and/or failing. 
+    Some skill cards have an ability that resolves upon the completion of a skill test, if the card is committed to that test.
+    Upon completion of a skill test, discard all investigator cards committed to that test, and return the revealed chaos token to the chaos bag.
+*** Weakness Cards
+    A weakness card is a card in an investigator's deck that has an ill effect when drawn. These cards are identified by the label "Weakness" or "Basic Weakness" beneath the card's title or artwork. When one of these cards is drawn, the investigator who drew the card must resolve its "*Revelation*" ability immediately.
+** Round Sequence
+   /Arkham Horror: LCG/ is played over a series of rounds. During a round, the investigators encounter the terrifying forces of the Mythos, move through and explore mysterious locations, fend off dangerous enemies, and finally, collect their bearings in anticipation of the next round.
+   Each round is divided into the following four phases:
+   1. Mythos phase
+   2. Investigation phase
+   3. Enemy phase
+   4. Upkeep phase
+   *Important Note:* During the first round of each game, skip the mythos phase. Proceed to the investigation phase. The mythos phase is described later.
+   Once all four phases are complete, the round is over, and play proceeds to the mythos phase of the next round. Each phase is described in detail below.
+*** The Investigation Phase
+    During this phase, each investigator takes a separate turn. The investigators, as a group, choose which investigator takes the first turn. When an investigator's turn ends, choose an investigator to take the next turn, and so on, until each investigator has taken his or her turn.
+    Each investigator has three actions during his or her turn that may be used to perform a variety of tasks. An investigator may perform any of the following, as mny times as he or she would like, and in any order, providing the investigator has an action available to pay for that task. On his or her turn, an investigator may use an action to:
+    - *Draw* 1 card.
+    - Gain 1 *Resource*.
+    - *Activate* an AT (action trigger) ability.
+    - *Engage* an enemy at his or her current location.
+    - *Investigate* his or her current location.
+    - *Move* to a new connecting location.
+    - *Play* an asset or even card from his or her hand.
+    - Attempt to *Evade* an enemy engaged with him or her.
+    - *Fight* an enemy at his or her current location.
+    If an investigator is engaged with one or more ready enemies, performing any action other than to *Evade*, to *Fight*, or to Activate an ability with either a *Parley* or *Resign* designator in its text causes each of those enemies to attack the investigator. This type of attack is called an *Attack of Opportunity*. 
+    An investigator may end his or her turn early if there are no other actions he or she wishes to perform. To indicate that an invetigator's turn is over, flip his or her mini card facedown, to its black and white side. Unused actions are lost and cannot be saved for future turns. After each investigator has completed his or her turn, play proceeds to the enemy phase.
+    Each of the actions is described in detail in the following sections:
+**** Draw
+     The investigator using this action draws one card from the top of their deck.
+**** Resource
+     The investigator using this action gains one resource from the token pool.
+**** Activate
+     The investigator using this action resolves an TA (Triggered Action) ability on a card under his or her control, on an encounter card at his or her location, or on the current act or agenda card.
+**** Engage
+     The investigator using this action engages one enemy that is at his or her location. To engage an enemy, the investigator places that enemy in his or her threat area. 
+**** Investigate
+     The investigator using this action investigates his or her current location in an attempt to find clues. That investigator makes an Intellect test against the shroud value of that location:
+     If the skill test is successful, the investigator has succeeded and discovers one clue from the location. When an investigator disovers a clue from a location, that player takes one clue that was on the location and places it on his or her investigator card.
+     If the test is failed, no clues are discovered.
+***** Advancing the Act Deck
+      The act deck represents progress the investigators can make in a scenario. Generally, the investigators can advance the act deck by spending, as a group, an appropriate number of clues. Spend clues are returned from the investigators cards to the general token pool. Advancing the act in this way does not cost an action and may be done during any investigator's turn. The number of clues required to advance to the next act can be found at the bottom of the current act card's text box.
+      If the current act has a boldface "*Objective*" instruction, that instruction overrides the procedure for advancing the act deck described above. 
+      To advance the act deck, flip the current act over to its "b" side, follow the instructions on the back, and set it aside, out of play. The next card in the act deck becomes the new current act. When advancing the act deck, any clues te investigators have gained (but are not spending) remain in their play area.
+**** Move
+     The investigator using this action moves to a connecting location. Move that investigator's mini card to any other location that is marked as a connection on the investigator's current location. A location's connections are indicated by the icons at the bottom of the location card, which each match and identical icon in the title area of each connecting location.
+     If the connecting location is unrevealed, the location is turned to its revealed side when an investigator moves to it. Remember to place the indicated number of clues on the location when this occurs.
+**** Play
+     When an investigator uses this action, that investigator selects an asset or event card in his or her hand, pays its resource cost, and plays it. A card's resource cost and cardtype are found in its upper left corner.
+     To pay a resource cost, the investigator playing the card must move a number of resources equal to the cost from his or her resource pool to the general token pool.
+     The rules for playing each cardtype are as follows:
+     - If the played card is an *event card*, its effects are resolved and it is then placed in its owner's discard pile.
+     - If the played card is an *asset card*, it is placed in the play area of the investigator playing the card and remains in play until an ability or game effect causes it to leave play.
+     - *Skill cards are not played.* For their abilities and icons to be used, these cards must be committed to a skill test from a player's hand.
+     Cards with the fast keyword do not cost and action to play.
+***** Slots
+      Slots restrict the number of cards of a specific category an investigator can have in play at one time. If an asset has one or more slot symbols, it may only enter play if its controller has those slots available.
+      The slots avialable to an investigator are: 
+      - 1 ally slot, 1 body slot, 1 accessory slot, 2 hand slots, and 2 arcane slots
+      If an investigator wishes to play or gain control of an asset that requires a slot already held by a different asset, the investigator must choose and discard and asset or assets under his or her control to make room for the newly aquired asset.
+**** Evade
+     The investigator using this action attempts to evade one enemy he or she is engaged with. The investigator makes an Agility test against that enemy's evad value:
+     If the skill test is successful, the investigator successfully evades the enemy. The enemy is exhausted, and the engagement is broken. Move the enemy from the investigator's threat area to the investigator's current location to mark that it is no longer engaged dwith that investigator.
+     If the Agility test fails, the enemy is not evaded and remains engaged with the investigator.
+**** Fight
+     The investigator using this action attacks one enemy that is at his or her location. That investigator makes a Combat test against the enemy's fight value:
+     If the combat test is successful, the attack succeeds and the investigator *deals 1 damage* to the attacked enemy. Some weapons, spells, or other special attacks may modify the amount of damage dealt. Place a number of damage tokens equal to the amount of damage dealt on the enemy. If an enemy has as much damage on it as it has health, the enemy is defeated and placed in the encounter discard pile. If the bottom of the enemy's text box indicates that it provides victory points, place the card in a shared victory pile instead of discarding it.
+     If the combat test fails, no damage is dealt to the attacked enemy. However, if an investigator fails a combat test aginst an enemy engaged with another investigator, the damage value of the failed attack is instead dealt to the investigator engaged with that enemy.
+*** The Enemy Phase
+    Resolve the following steps, in order. If there are no enemies in play, proceed to the upkeep phase.
+    1. *Hunter enemies move.* Some enemies have the hunter keyword. Each such enemy moves once, to a connecting location, in the direction of the nearest investigator. Exhausted hunter enemies and hunter enemies at a location with one or more investigators do not move.
+       If a hunter enemy moves to a location with one or more investigators, that enemy immediately engages one of those investigators. 
+    2. *Enemy attacks.* Each ready, engaged enemy makes an attak agains the investigator with which it is engaged. The investigators resolve enemy attacks in player order. When an enemy attacks, deal both its damage and its horror, simultaneously, to the engaged investigator.
+       The amount of damage and horror dealt by an enemy's attack can be found at the bottom of the enemy's text box.
+       After an enemy attacks during the enemy phase, exhaust it to indicate that it has attacked. (During attacks of opportunity, enemies do not exhaust)
+**** Damage and Horror
+     An investigator may be dealt damage and/or horror during a scenario. Damage depletes an investigator's health, and horror depletes an investigator's sanity.
+     When an investigator is dealt damage, place damage on the investigator card and/or on any of that investigator's asset cards taht have health, up to the amount of damage each card can hold. A card that has no health value cannot be dealt damage.
+     When an investigator is dealt horror, place horror on the investigator card and/or on any of that investigator's asset cards that have sanity, up to the amount of horror each card can hold. A card that has no sanity value cannot be dealt horror.
+     if a card has an amount of damage that equals or exceeds its health, or an amount of horror that equals or exceeds its sanity, the card is defeated. A defeated asset card is discarded. A defeated investigator is eliminated.
+*** The Upkeep Phase
+    Resolve the following steps, in order:
+    1. Each investigator turns his or her mini card faceup.
+    2. Ready all exhausted cards. Each unengaged enemy that readies at the same location as an investigator engages at this time.
+    3. Each investigator draws 1 card and gains 1 resource.
+    4. Each investigator with *more than 8 cards in his or her hand* chooses and discards cards from their hand until only 8 cards remain.
+    After the above steps are complete, the game round is over. Proceed to the mythos phase of the next game round.
+*** The Mythos Phase
+    The mythos phase comprises three steps, described below.
+    1. Place one doom token on the current agenda.
+    2. Compare teh total number of doom tokens in play (on the current agenda and on other cards in play) to the doom threshold of the current agenda. If the number of doom tokens in play is equal to or greater than the doom threshold of the current agenda, advance the agenda deck. This is done by discarding all doom tokens from play, turning the current agenda card over, following the instructions on its reverse side, and removing that agenda from play. After following those instructions, the front side of the next card in the agenda deck becomes the active agenda card. (*Important Note:* Unless a card specifies that it can advance the agenda, this is the only time the agenda can advance.)
+    3. In player order, each investigator draws the top card of the encounter deck. Instructions for resolving each type of encounter card are presented as treachery or enemy cards.
+    *Treachery* - When a treachery card is drawn, its ability is resolved, and the card is placed in the encounter discard pile.
+    *Enemy* - When an enemy card is drawn, that enemy spawns engaged with the investigator who drew the card, unless it has a "Spawn" instruction.If the enemy has a spawn instruction, it spawns at the location indicated by that instruction.
+**** Enemy Engagement
+      While an enemy card is in play, either it is engaged with an investigator (and placed in that player's threat area), or it is at a location (and placed at that location). Each enemy in an investigator's threat area is considered to be at the same location as that investigator. Should the investigator move, the enemy remains engaged with the investigator and also moves to the new location.
+      Any time a ready non-engaged enemy is at the same location as an investigator, it engages that investigator and is placed in that investigator's threat area. If multiple investigators are at the same location as a ready enemy, the lead investigator chooses which of those investigators the enemy engages. some enemies also have a "*Prey*" instruction, which dictates whom it engages if there is a conflict. 
+      An enemy will immediately engage if:
+      - It spawns (in a ready state) at the same location as an investigator.
+      - It moves (in a ready state) to the same location as an investigator.
+      - An investigator moves to the same location as a ready enemy.
+      - An exhausted enemy is readied at the same location as an investigator.
+** What's Next?
+   After the mythos phase is resolved, play proceeds to the investigator phase as usual. Continue resolving game rounds until players have reached the scenario's resolution. 
+   After you've completed the game, you may wish to continue the campaign. To do so, read "Expanded Campaign Rules" in the Campaign Guide. Then proceed to the scenario "The Midnight Masks" using setup rules in the Rules Reference.
+   Some players may with to practice using different investigators before proceeding to the campaign. To do so, use the Custom Deckbuilding rules. 
+*** Custom Deckbuilding
+    The /Arkham Horror: LCG/ core set is desinged to be a complete game experience with significant replayability. After learning the basics of the game, players may wish to explore building original decks.
+**** Why Build a Custom Deck?
+     Deckbuilding is a process by which a player may customize his or her deck to take on the scenarios using original strategies and ideas. This allows a player to experience the game in new ways; instead of adapting his or her play to the strategy of a starter deck, each player may construct a deck that functions as he or she desires. When a player constructs an original deck, that player doesn't just participate in the game: he or she actively shapes how it is played.
+**** Deck Customization Rules
+     The following are the deck customization rules for /Arkham Horror: LCG/ investigator decks. Note that for more deckbuilding options, players may want to obtain other expansion sets containing new cards.
+     - A player must choose exactly 1 investigator card.
+     - A player's investigator deck must include the exact number of standard player cards indicated on the back of his or her investigator card as the "Deck Size." For each of the investigators in the core set, this number is 30. Weakness, investigator-specific cards, and scenario cards that are added to a player's deck do not count toward this number.
+     - Each standard player card in a player's deck must be chosen in observance with the "Deckbuilding Options" available on the back of his or her investigator card.
+     - A player's deck cannot include more than 2 copies (by title) of any given player card.
+     - Any other "Deckbuilding Requirements" on the back of a player's investigator card must be observed.
+     - At the beginning of a campaign, an investigator may only include level 0 cards in his or her deck.
+**** Random Weakness
+     Most investigators have a deckbuilding requirement that instructs the player to add a random basic weakness to his or her deck.
+     A basic weakness is identified by the weakness symbol.
+     To select a random basic weakness, take a set of the ten bsic weaknesses in the core set, shuffle those weaknesses together, and draw one at random to add to the investigator's deck. Some /Arkham Horror: LCG/ products add additional basic weakness cards to a player's collection. Simply add these cards to the ten cards found in the core set when selecting random basic weaknesses in the future.
+     The weakness selected via the process described above is added to the player's deck at the end of the deckbuilding process, after all other cards in the player's deck have been selected. In campaign mode, the selected weakness remains a part of the investigator's deck for the entire campaign, unless it is removed by a card ability. New weaknesses are not automatically added at the beginning of subsequent campaign scenarios, but card abilities or scenario instructions may instruct an investigator to gain additional weaknesses.
+* Rules Reference
+  This document is indended as the definitive source for rules information, but does not teach players how to play the game. Players should first read the Learn to play book it its entirety and use this Rules Reference as needed while playing the game.
+  The majoirty of this guide consists of a glossary, which provides an alphabetical listing of terms and situations a player might encounter during a game. This section should be the first destination for players who have a rules question.
+  The latter part of this guide contains four appendicies. The first appendix describes the process of playing cards or initiating triggered abilities. The second appendix provides timing diagrams that illustrate the structure of a game round, as well as a detailed explanation of how to handle each game step presente in those diagrams. The third appendix lists the complete rules for setting up a game of Arkham Horror: The Card Game. The fourth appendix provides a detailed anatomy of each cardtype.
+** The Golden Rules
+   If the text of this Rules Refrence directly contradicts the text of the Learn to Play book, the text of the Rules Reference takes precedence.
+   If the text of a card directly contradicts the text of either the Rules Reference or the Learn to Play book, the text of the card takes precedence.
+** The Grim Rule
+   If players are unable to find the answer to a rules or timing conflict in the Rules Reference, resolve the conflict in the manner that the players percieve as the worst possible at that moment with regards to winning the scenario, and continue with the game.
+** Glossary
+*** A, An
+*** Ability
+*** Act Deck and Agenda Deck
+*** Action
+*** Activate Action
+*** Active Player
+*** After
+*** Agenda Deck
+*** Aloof
+*** Asset Cards
+*** Attach To
+*** Attacker, Attacked
+*** Attack of Opportunity
+*** Automatic Failure/Success
+*** Base Value
+*** Bearer
+*** Blank
+*** Campaign Play
+*** Cancel
+*** Cannot
+*** Cardtypes
+*** Chaos Tokens
+*** Clues
+*** Collection
+*** Constant Abilities
+*** Control
+*** Copy
+*** Costs
+*** Dealing Damage/Horror
+*** Deck
+*** Deckbuilding
+*** Defeat
+*** Delayed Effects
+*** Difficulty (level)
+*** Difficulty (skill tests)
+*** Direct Damage, Direct Horror
+*** Discard Piles
+*** Doom
+*** Draw Action
+*** Drawing Cards
+*** Effects
+*** Elimination
+*** Empty Location
+*** Encounter Deck
+*** Encounter Sets
+*** Enemy Cards
+*** Enemy Engagement
+*** Enemy Phase
+*** Engage Action
+*** Enters Play
+*** Evade, Evade Action
+*** Event Cards
+*** Exceptional
+*** Exhaust, Exhausted
+*** Experience
+*** Fast
+*** Fight Action
+*** Flavor Text
+*** Forced Abilities
+*** Gains
+*** Game
+*** Hand Size
+*** Heal
+*** Health and Damage
+*** Hunter
+*** Immune
+*** In Play and Out of Play
+*** In Player Order
+*** Instead
+*** Investigate Action
+*** Investigation Phase
+*** Investigator Deck
+*** Keywords
+*** Killed/Insane Investigators
+*** Lasting Effects
+*** Lead Investigator
+*** Leaves Play
+*** Limits and Maximums
+*** Location Cards
+*** Massive
+*** May
+*** Modifiers
+*** Move
+*** Move Action
+*** Mulligan
+*** Must
+*** Mythos Phase
+*** Nearest
+*** Ownership and Control
+*** Parley
+*** Per Investigator
+*** Peril
+*** Permanent
+*** Play
+*** Play Action
+*** Play Restrictions, Permissions, and Instructions
+*** Prey
+*** Printed
+*** Priority of Simultaneous Resolution
+*** Put into Play
+*** Qualifiers
+*** Ready
+*** Removed from Game
+*** Resign
+*** Resource Action
+*** Resources
+*** Retaliate
+*** Revelation
+*** Sanity and Horror
+*** Set Aside
+*** Search
+*** Self-Referential Text
+*** Skill Cards
+*** Skill Tests
+*** Slots
+*** Spawn
+*** Standalone Mode
+*** Surge
+*** Taking Damage/Horror
+*** Target
+*** Then
+*** Threat Area
+*** Tokens, Running out of
+*** Traits
+*** Trauma
+*** Treachery Cards
+*** Triggered Abilities
+*** Triggering Condition
+*** Unique (*)
+*** Upkeep Phase
+*** Uses (X "type")
+*** Vicorty Display, Victory Points
+*** Weakness
+*** Winning and Losing
+*** The letter 'X'
+*** You/Your
+    - An ability on a card in play referencing "you" or "your" refers to the investigator who controls, is engaged with, or is currently interacting with the card.
+    - A Revelation ability that references "you" or "your" refers to the investigator who drew the card and is resolving the ability.
+    - While resolving an ability initiated by the active action, "you" or "your" refers to the investigator performing the action.
+** Appendix 1: Initiation Sequence
+   When a player wishes to initiate a triggered ability or play a card, that player first declares his or her intent. There are two preliminary confirmations that must be made before the process of initiating an ability or playing a card may begin. These are:
+
+   - Check play restrictions: determine if the card can be played, or if the ability can be initiated, at this time. (This includes verifying that the resolution of the effect has the potential to change the game state.) If the play restrictions are not met, abort this process.
+   - Determine the cost (or costs, if multiple costs are required) to play the card or initiate the ability. If it is established that the cost (taking modifiers into account) can be paid, proceed with the remaining steps of this sequence.
+
+   Once each of the above confirmations has been made, follow these steps, in order: 
+
+   1. Apply any modifiers to the cost(s).
+   2. Pay the cost(s). If this step is reached and the cost(s) cannot be paid, abort this process without paying any costs.
+      - Upon completion of this step, attacks of opportunity, if applicable, resolve.
+   3. The card commences being played, or the effects of the ability attempt to initiate.
+   4. The effects of the ability (if not canceled in step 3) complete their initiation, and resolve. The card is regarded as played ( and placed in play, or in its owner's discard pile if it's an event), and the ability is considered resolved simultaneously with the completion of this step.
+      - If the ability being initiated is on an in-play card, the sequence does not stop from completing if that card leaves play during the sequence.
+** Appendix 2: Timing and Gameplay
+   The "Phase Sequence timing chart" depicts the phases and steps of a game round. Each time an investigator makes a skill test, use the skill test timing detailed in the "Skill Test timing chart."
+
+   Numbered items presented in the grey boxes are known as framework events. Framework events are mandatory occurrences dictated by the structure of the game. 
+
+   The red boxes are player windows. Players may use triggered abilities in these windows.
+*** Framework Event Details
+
+*** Skill Test Timing
+** Appendix 3: Set Up the Game
+** Appendix 4: Card Anatomy
+* Curse of the Rougarou
+** Expansion
+   - /Curse of the Rougarou/
+   /Curse of the Rougarou/ can be played in one of two ways: As a standalone scenario, or as a side-story inserted into any campaig
+** Standalone Mode
+   When played as a standalone scenario, follow the steps for Standalone Mode as defined in the rules reference. There is no campaign guide for /Curse of the Rougarou/; instead refer to the section below for additional setup instructions. 
+   When played as a standalone scenario, /Curse of the Rougarou/ has only two difficulty modes. Construct the chaos bag with the following tokens:
+   - Standard: +1, +1, 0, 0, 0, -1, -1, -1, -2, -2, -3, -3, -4, -4, -5, -6, S, S, C, C, T, O, F, E
+   - Hard: +1, 0, 0, 0, -1, -1, -1, -2, -2, -3, -3, -4, -4, -5, -5, -6, -8, S, S, S, C, C, T, O, F, E
+** Side-story (Campaign Mode)
+   A side-story is a scenario that may be played between any two scenarios of an Arkham Horror: The Card Game campaign. Playing a side-story costs each investigator in the campaing a certain amount of experience. Weakness, trauma, experience, and rewards granted by playing a side-story stay with the investigators for the remainder of the campaign. Each side-story may only be played once per campaign.
+   When played as a side-story during a campaign, play this scenario as if you are setting up the next scenario in the campaign, with the same chaos bag, weakness, trauma, and story assets previously earned.
+   *Playing the /Curse of the Rougarou/ side-story costs each investigator 1 experience.*
+** Setup
+   - Gather all cards from the following encounter sets: /Curse of the Rougarou/ and /The Bayou/.
+   - Set the /Curse of the Rougarou/ encounter set aside, out of play. 
+   - Sort each location into 4 piles, by trait (/*New Orleans*/, /*Riverside*/, /*Wilderness*/, and /*Unhallowed*/). Randomly choose 1 of these piles and remove those locations from the game. Randomly choose another 1 of these piles and put those locations into play. Set each location in the other 2 piles aside, out of play. Each investigator begins play at the /*Bayou*/ location in play.
+   - Set the following cards aside, out of play: Lady Esprit, Bear Trap, and Fishing Net.
+   - Shuffle the remainder of the encounter cards to build the encounter deck.
+* Machinations Through Time
+** Expansion
+   -/Machinations Through Time/
+   /Machinations Through Time/ can be played as either a standalone scenario or as a side-story inserted into any campaign. When played standalone, it can be played in one of two ways: with a single group of 1-4 players in /Single Group Mode/, or with 3-12 players split into three groups of 1-4 players each in /Epic Multiplayer Mode/.
+   Included are additional rules and clarifications for both versions of the scenario and special rules pertaining to /Epic Multiplayer Mode/.
+** Standalone Mode
+   When played as a standalone scenario, follow the steps for Standalone Mode in the Rules Reference. This section is the campaign guide for /Machinations Through Time/. This scenario has four difficulty modes. Each group may play on its own difficulty mode. Construct the chaos bag with the following tokens.
+   - Easy: +1, +1, +1, 0, 0, 0, 0, -1, -1, -1, -2, -2, S, C, T, O, F, E
+   - Standard: +1, 0, 0, -1, -1, -1, -2, -2, -3, -4, S, S, C, T, O, F, E
+   - Hard: 0, 0, -1, -1, -1, -2, -3, -4, -6, S, S, C, T, O, O, F, E
+   - Expert: 0, -1, -1, -2, -3, -4, -5, -6, -8, S, S, C, T, O, O, F, E
+** Side-Story (Campaign Mode)
+   A side-story is a scenario that may be played between any two scenarios of an Arkham Horror: LCG campaign. Playing a side-story costs each investigator in the campaign a certain amount of experience. Weakness, trauma, experience, and rewards granted by playing a side-story stay with the investigator sfor the remainder of the campaign. Each side-story may only be played once per campaign.
+   When this scenario is played as a side-story during a campaign, play it as if you are setting up the next scenario in the campaign, with the same chaos bag, weakness, trauma, and story assets perviously earned.
+   *Playing the /Machinations Through Time/ side-story costs each investigator 2 experience.*
+** Aditional Rules & Clarifications
+*** Eras
+    /Machinations Through Time/ has three separate eras: past, present, and future. In /Single Group Mode/, you play all three eras simultaneously and may travel through all eras. In /Epic Multiplayer Mode/, each group is confines to a separate era.
+    - A /*Past*/ asset cannot enter a non-/*Past*/ location.
+    - A /*Present*/ asset cannot enter a non-/*Present*/ location.
+    - A /*Future*/ non-/*Item*/ asset cannot enter a non-/*Future*/ location.
+*** Time Paradox
+    During /Machinations Through Time/, you may be confronted with seemingly impossible tasks. Some tasks require the help of investigators in another era to complete. Communication is key.
+*** Story Cards
+    Story cards are a cardtype in this scenario. These cards serve as an avenue for additional narrative and game text. During setup, resolve the *Setup* text on each story card in play. Abilities on story cards in play can be triggered by any investigator.
+*** Announce
+    When a card instructs you to "announce" a key phrase, if you are playing in /Epic Multiplayer Mode/, clearly communicate that phrase to the other two groups. Some abilities require an announcement to have been made before they can be triggered. See Announcements section for a list of all announcements.
+*** Abducted and Rescued
+    When a /*Scientist*/ asset is abducted (via card or game text), remove all counters from it and set it aside, out of play. It remains out of play until it is rescued (via card or game text).
+*** Alert
+    Each time an investigator fails a skill test while attempting to evade an enemy with the alert keyword, after applying all results for that skill test, that enemy performs an attack against the evading investigator. An enemy does not exhaust after performing an alert attack. This attack occurs whether the enemy is engaged with the evading investigator or not.
+*** Patrol
+    Some enemies have the patrol keyword. During the enemy phase (in frameword step 3.2), each ready, unengaged enemy with the patrol keyword moves to a connecting location along the shortest path towards the designated location (as described in parentheses next to the word patrol).
+    - If there are multiple locations that qualify as the designated location, the elad investigator may choose which location the enemy moves towards.
+    - If an enemy with patrol would be compelled to move to a location that is blocked by a card ability, the enemy does not move.
+*** Global Values
+    Global values are calculated based on the total number of participating players among all groups at the start of the game.
+    - Any values 'X' that are calculated on a per investigator basis, it is all investigators in all eras for the global value.
+** Epic Multiplayer Modes
+   To play /Machinations Through Time/ in /Epic Multiplayer Mode/, first divide the investigators into three separate groups - Past Group, Present Group, and Future Group. At least one investigator must be assigned to each group, and no more than four investigators may be assigned to a single group. While it is possible to play with groups of differently numbered players, split players between groups as evenly as possible. Each group requires one copy of /Machinations Through Time/ in order to play. During gameplay, observe the following additional rules:
+    - Each group has its own play area, and plays the game separately from the other groups. Rules, actions, and card effects cannot affect investigators in other groups, unless explicitly stated otherwise.
+    - Each group can proceed to the next round or agenda independently of one another; there is no need to wait until all groups have reached the same point before proceeding.
+    - Investigators may freely communicate between groups.
+*** Time Limit
+    When playing in /Epic Multiplayer Mode/, the players (or your event organizer) may impose a time restriction for the game. the default time limit is *180 minutes*. The players (or your event organizer) may impose a different time restriction, often depending on the number of players. When this time limit has passed, any groups that are still playing must immediately advance to agenda 2b.
+** Setup for Single Group Mode
+    - Gather all cards from the /Machinations Through Time/ and /Single Group Mode/ encounter sets. These sets are indicated by their respective icons.
+    - Set the Corrigan Industries location aside, out of play. Put the Tindalos location into play, using the side with the /Single Group Mode/ encounter set icon. Put the remaining fourteen locations into play (/see the locaiton placements in location section, ignoring the placement for Tindalos/).
+    - Each investigator begins play at Tindalos.
+    - Put the A Noble Legacy (Past), A Noble Legacy (Present), A Noble Legacy (Future) story cards into play, one at a time, and resolve the *Setup* text on each of them. (/Hint - When playing, first focus on completing A Noble Legacy (Past), then focus on A Noble Legacy (Present), and, lastly, A Noble Legacy (Future)./)
+    - Choose one of the three /*Machination*/ story cards at random, put it into play, and resolve its *Setup* text. Remove the other two /*Machination*/ story cards from the game.
+    - Choose one of the three /*Plot*/ story cards at random, put it into play, and resolve its *Setup* text. Remove the other two /*Plot*/ story cards from the game.
+    - Add (1 * Inv) doom to agenda 1a. Then if you are not playing on Standard difficulty, check the difficulty level:
+      - If it is Easy difficulty, remove 1 doom from agenda 1a.
+      - If it is Hard difficulty, add 1 doom to agenda 1a.
+      - If it is Expert difficulty, add 2 doom to agenda 1a.
+    - Shuffle the remaining 33 encounter cards to form the encounter deck.
+    - Ready to Begin
+** Setup for Epic Multiplayer Mode
+    - Gather all cards from the /Machinations Through Time/ and /Epic Multiplayer Mode/ encounter sets. These sets are indicated by their respective icons.
+    - Depending on which group you are in (Past Group, Present Group, or Future Group), follow the setup instructions for that group.
+*** Setup for Past Group
+    - Put the Tindalos location into play, using the side with the /Epic Multiplayer Mode/ encounter set icon. Put the five /*Past*/ locations into play (/see location placement/) Remove the remaining locations from the game.
+      - Each investigator begins play at Tindalos
+    - The the A Noble Legacy (Past) story card into play and resolve its *Setup* text. Remove the other two A Noble Legacy story cards from the game. 
+    - Remove all /*Present*/ and /*Future*/ story assets from the game.
+    - Choose one of the three /*Machination*/ story cards at random, announce its title, put it into play, and resolve its *Setup* text. Remove the other two /*Machination*/ story cards from the game.
+    - Choose one of the three /*Plot*/ story cards at random, announce its title, put it into play, and resolve its *Setup* text. Temove the other two /*Plot*/ story cards from the game.
+    - Add (1 * Inv) doom to agenda 1a. Then if you are not playing on Standard difficulty, check the difficulty level:
+      - If it is Easy difficulty, remove 1 doom from agenda 1a.
+      - If it is Hard difficulty, add 1 doom to agenda 1a.
+      - If it is Expert difficulty, add 2 doom to agenda 1a.
+    - Shuffle the remaining 33 encounter cards to form the encounter deck.
+    - Ready to Begin
+*** Setup for Present Group
+    - Put the Tindalos location into play, using the side with /Epic Multiplayer Mode/ encounter set icon. Put the five /*Present*/ locaitons into play (/see location placement/). Remove the remaining locations from the game.
+      - Each investigator begins play at Tindalos.
+    - Put the A Noble Legacy (Present) story card into play and resolve its *Setup* text. Remove the other two A Noble Legacy story cards from the game.
+    - Remove all /*Past*/ and /*Future*/ story assets from the game.
+    - Put the announced /*Machination*/ story card into play and resovle its *Setup* text. Remove the other two /*Machination*/ story cards from the game.
+    - Put the announced /*Plot*/ story card into play and resolve its *Setup* text. Remove the other two /*Plot*/ story cards from the game.
+    - Add (1 * Inv) doom to agenda 1a. Then if you are not playing on Standard difficulty, check the difficulty level:
+      - If it is Easy difficulty, remove 1 doom from agenda 1a.
+      - If it is Hard difficulty, add 1 doom to agenda 1a.
+      - If it is Expert difficulty, add 2 doom to agenda 1a.
+    - Shuffle the remaining 33 encounter cards to form the encounter deck.
+    - Ready to Begin
+*** Setup for Future Group
+    - Put the Tindalos locaiton into play, using the side with the /Epic Multiplayer Mode/ encounter set icon. Set the Corrigan Industries location aside, out of play. Put the four /*Future*/ locations into play (/see location placement/). Remove the remaining locations from the game.
+      - Each investigator begins play at Tindalos.
+    - Put the A Noble Legacy (Future) story card into play and resolve its *Setup* text. Remove the other two A Noble Legcy story cards from the game.
+    - Remove all /*Past*/ and /*Present*/ story assets from the game.
+    - Put the announced /*Machination*/ story card into play and resolve its *Setup* text. Remove the other two /*Machination*/ story cards from the game.
+    - Put the announced /*Plot*/ story card into play and resolve its *Setup* text. Remove the other two /*Plot*/ story cards from the game.
+    - Add (1 * Inv) doom to agenda 1a. Then if you are not playing on Standard difficulty, check the difficulty level:
+      - If it is Easy difficulty, remove 1 doom from agenda 1a.
+      - If it is Hard difficulty, add 1 doom to agenda 1a.
+      - If it is Expert difficulty, add 2 doom to agenda 1a.
+    - Shuffle the remaining 33 encounter cards to form the encounter deck.
+    - Ready to Begin
+** Location Placement
+*** Location Placement for the Past
+|            | Arkham Gazette        |                      |
+|------------+-----------------------+----------------------|
+|River Docks | Tindalos              | O'Malley's Watch Shop|
+|------------+-----------------------+----------------------|
+|            | Miskatonic University |                      |
+|------------+-----------------------+----------------------|
+|            | Childhood Home        |                      |
+
+*** Location Placement for the Present
+|             | Arkham Adviser        |                |
+|-------------+-----------------------+----------------|
+| River Docks | Tindalos              | Tick-Tock Club |
+|-------------+-----------------------+----------------|
+|             | Miskatonic University |                |
+|-------------+-----------------------+----------------|
+|             | Ye Olde Magick Shoppe |                |
+
+*** Location Placement for the Future
+|             | Arkham Adviser        |                |
+|-------------+-----------------------+----------------|
+| River Docks | Tindalos              | Tick-Tock Club |
+|-------------+-----------------------+----------------|
+|             | Miskatonic University |                |
+
+** Optional Variants
+   For a more challenging and thematic experience, try playing with any number of the following variants:
+   - When a /*Past*/ version of the Thomas Corrigan or Mayr Zielinski asset is abducted, announce that their /*Present*/ version (in the present era) is also abducted. When a /*Present*/ version of the Thomas Corrigan or Mary Zielinski asset is abducted, announce that their /*Future*/ version (in the future era) is also abducted.
+   - During setup, instead of choosing one /*Plot*/ story card, choose two /*Plot*/ story cards at random, put them into play, one at a time, and resolve the *Setup* text on each of them (/instead of removing enemies from the game, set them aside/). Remove the other /*Plot*/ story card from the game. For an extra challenging experience, put all three /*Plot*/ story cards into play!
+*** Single Group Mode
+   - When two or more /*Scientist*/ assets with the same title are in play at Tindalos, they all faint from seeing one another. Deal 5 horror to each of those assets.
+*** Epic Multiplayer Mode
+   - Instead of playing independently of one another, at the end of each round, each group must pause the game and wait until all three groups have reached the end of the round before proceeding to the next round.
+** Announcements
+   The following is a list of announcements that can be made as the investigators play the /Machinations Through Time/ scenario. As the investigators complete each of these announcements, check the box next to them. 
+- [ ] "Thomas and Mary have met."
+- [ ] "Thomas and Mary have been inspired by Nikola Tesla."
+- [ ] "Funding for an observatory has begun."
+- [ ] "The observatory is built."
+- [ ] "Teleportation research has begun."
+- [ ] "Corrigan Industries has been founded."
+- [ ] "Thomas and Mary have made a historic discovery."
+- [ ] "Thomas and Mary have won a Nobel Prize."
+- [ ] "A tree seed has been planted."
+- [ ] "Thomas and Mary have married."
+- [ ] "The debt has been paid."
