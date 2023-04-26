@@ -213,8 +213,35 @@
 ** The Grim Rule
    If players are unable to find the answer to a rules or timing conflict in the Rules Reference, resolve the conflict in the manner that the players percieve as the worst possible at that moment with regards to winning the scenario, and continue with the game.
 ** Glossary
+   The following is an alphabetical list of entries for game rules, terms and situations that may occur duing play.
 *** A, An
+    When used to describe a condition, the words "a" or "an" are satisfied if one or more of the conditional elements are present. /For example, an investigator with 3 resources will satisfy the condition of "Each investigator with a resource"./
 *** Ability
+    An ability is the specialized game text that indicates how a card affects the game.
+    - Card abilities only interact with the game if the card bearing the ability is in play, unless the ability (or rules for the cardtype) specifically references its use from an out-of-play area.
+    - Car abilities only interact with other cards that are in play, unless the ability specifically references an interaction with cards in an out-of-play area.
+    - If multiple instances of the same ability are in play, each instance interacts with (or may interact with) the game state individually.
+    The various types of card abilities are: CA (Constant Abilities), FA (Forced Abilities), RA (Revelation Abilities), TA (Triggered Abilities), Keywords, and Enemy Instructions.
+**** Constant Abilities (CA)
+     Constant abilities are simply stated on a card with no special formatting. CA's are always interacting with the game state as long as the card is in play. (Some CA's continuously seek a specific condition, denoted by words such as "during" or "while". The effects of such abilities are active any time the specified condition is met). CA's have no point of initiation.
+**** Forced Abilities (FA)
+     A forced ability is identifed by a bold "*Forced*" command. Forced abilities initiate and interact with the game state automatically at a specified timing point. Such a timing point is usually indicated by words such as: "when", "after", "if", or "at".
+     - If a forced ability does not have the potential to change the game state, the ability does not initiate.
+     - The initiation of a forced ability that has the potential to change the game state is mandatory each time a specified timing point is met.
+     - A forced ability with a timing point beginning with the word "when" automatically initiates as soon as the specified timing point is reached, but before its impact upon the game state is resolved. 
+     - A forced ability with a timing point beginning with the word "after" automatically initiates immediately after that timing point's impact upon the game state is resolved. 
+     - For any given timing point, all forced abilities initiated in reference to that timing point must resolve before any Triggered Abilities (TA) referencing the same timing point in the same manner may be initiated.
+**** Revelation Abilities (RA)
+     A revelation ability, indicated by a bold "*Revelation*" command on an encounter card or weakness, initiates as that card is drawn by an investigator.
+**** Triggered Abilities (TA)
+     A triggered ability is any ability prefaced by either an Free (F) (Bolt), Reaction (R) (Circular Arrow), or Action (A) (Arrow) icon. If the ability has one or more prerequisites, these are listed in text immediately following the icon. A player must always meet the prerequisites of a triggered ability in order to trigger that ability. There are three types of triggered abilities:
+     Free triggered abilities (FTA) (Bolt) - An FTA may be triggered as a player ability during any player window (see Appendix 2).
+     Reaction triggered abilities (RTA) (Circular Arrow) - An RTA with a specific triggering condition may be triggered any time a specific condition is met. 
+     - An RTA with a triggering condition beginning with the word "when" may be used after the specific triggering condition initiates, but before its impact upon the game state resolves.
+     - An RTA with a triggering condition beginning with the word "after" may be used immediately after that triggering condition's impact upon the game state has resolved.
+     - Each RTA may be triggered only once each time the specified condition on the ability is met.
+     Action triggered abilities (ATA) (Arrow) - An ATA may be triggered during a player's turn in the investigation phase through the use of the activate action, and only if the player uses one action for each ATA specified in the ability's cost.
+     All triggered actions are governed by the 
 *** Act Deck and Agenda Deck
 *** Action
 *** Activate Action
