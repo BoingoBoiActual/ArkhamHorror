@@ -362,15 +362,54 @@ Some abilities have bold action designators (such as Fight, Evade, Investigate, 
     See also: "Asset Cards", "Enemy Cards", "Event Cards", "Location Cards", "Skill Cards", "Trechery Cards"
 *** Chaos Tokens
     Chaos tokens are revealed from the chaos bag during skill tests, to modify or influence the results of the skill test.
-    S (Skull), C (Cultist), O (Old One), T (Tablet) - If any of these tokens are
+    S (Skull), C (Cultist), O (Old One), T (Tablet) - If any of these tokens are revealed for a skill test, resolve the effect for that symbol as indicated on the scenario reference card for the current scenario.
+    F (Failure) - This is the auto-fail token. If this token is revealed for a skill test, it indicates the investigator automatically fails the test.
+    E (Elder Sign) - This is the elder sign token. If this token is revealed for a skill test, resolve the E effect on the investigator card belonging to the player performing the skill test.
+    If a revealed chaos token (or the effect referenced by a chaos token) has a numerical modifier, that modifier is applied to the investigator's skill value for this test.
+    See "ST.3 Reveal chaos token"
 *** Clues
+    Clues represent the progress the investigators can make towards solving a mystery, unraveling a conspiracy, and/or advancing in a scenario.
+    - The first time an investigator enters a location, that location is revealed (turned face-up) and a number of clues equal to that location's clue value are placed on that location (from the token pool). Most clue values are conveyed as a "per investigator (INV)" value. This may occur during setup.
+    - A clue at a location can be discovered by successfully investigating the location (see "Investigate Action"), or by a card ability. If an investigator discovers a clue, he or she takes the clue from the location and places it on his or her investigator card, under his or her control.
+    - If there are no " *Objective* " requirements for advancing the current act, during any investigator's turn the investigators may, as a group, spend the requisite number of clues (usually conveyed as a "per investigator" value) from their investigator cards to advance the act deck. This is normally done as a FTA player ability. Any or all investigators may contribute any number of clues towards the total number of clues required to advance the deck.
+    - A card ability that refers to clues "at a location" is referring to the undiscovered clues that are currently on that location.
+    See also: "Act Deck and Agenda Deck", "Tokens, Running out of"
 *** Collection
+    If an ability refers to a player's collection (/for example, "search the collection"/), the collection of cards from which that player's deck was assembled is used.
+    /Example: Sean and Etienne are each using a deck built from Sean's collection. If Etienne is instructed to "search the collection", he searches Sean's collection/
 *** Constant Abilities
+    See "Ability"
 *** Control
+    See "Ownership and Control"
 *** Copy
+    A copy of a card is defined by a title. A second copy fo a card is any other card that shares the same title, regardless of cardtype, text, artwork, or any other differeing characteristics between the cards.
 *** Costs
+    There are two types of costs in the game: resource costs and ability costs.
+    A card's resource cost is the numerical value that must be paid (in resources) to play the card from hand. To pay a resource cost, an investigator takes the specified number of resources from his or her resource pool and places them in the token pool.
+    Some triggered abilities are presented in a "cost:effect" construct. In such a construct, the aspect preceding the colon indicates the ability cost that must be paid and any triggering conditions that must be met to trigger the ability. The aspect following the colon is the effect.
+    - If multiple costs for a single card or ability require payment, those costs must be paid simultaneously.
+    - Only the controller of a card or ability may pay its costs. Game elements another player controls may not be used to pay a cost.
+    - When exhausting, sacrificing, or otherwise using cards to pay costs, only cards that are in play and under their owner's control may be used, unless the cost specifies an out-of-play state.
+    - If a cost requires a game element that is not in play, the player paying the cost may only use game elements that are in his or her hame areas (such as his or her hand or deck) to pay the cost.
+    - If the investigators are instructed to pay a cost as a group, each investigator (or each investigator in the group defined by the ability) may contribute to paying the cost.
+    - An ability cannot initiate - and therefore its cost cannot be paid - if the resolution of its effect will not change the game state.
+    - If an investigator takes damage or horror as a cost and reassigns any of it to an asset, the cost is still considered paid.
 *** Dealing Damage/Horror
+    There are two types of afflictions that may beset an investigator in the game: damage and horror. Damage afflicts an investigator's health, and horror afflicts an investigator's sanity.
+    When an investigator or enemy is dealt damage and/or horror, follow these steps, in order:
+    1. *Assign Damage/Horror*: Determine the amount of damage and/or horror being dealt. Place damage and/or horror tokens equal to the amount of damage and horror being dealt next to the cards that will be taking the damage/horror.
+       - When an invsetigator is dealt damage or horror, that investigator may assign it to eligible asset cards he or she controls. To be eligible, an asset card must have health in order to be assigned damage, and it must have sanity in order to be assigned horror.
+       - An asset cannot be assinged damage beyond the amound of damage it would take to defeat the card, and cannot be assigned horror beyond the amount of horror it would take to defeat the card.
+       - All damage/horror that cannot be assigned to an asset must be assinged to the investigator.
+    2. *Apply Damage/Horror* Any assigned damage/horror that has not been prevented is now placed on each card to which it has been assigned, simultaneously. If no damage/horror is applied in this step, no damage/horror has been successfully dealt.
+       - Abilities that prevent, reduce, or reassign damage and/or horror that is being dealth are resolved between steps 1 and 2.
+       - After applying damage/horror, if an investigator has damage equal to or higher than his or her health or horror equal to or higher than his or her sanity, he or she is defeated. When an investigator is defeated, he or she is eliminated from the scenario (see "Elimination").
+       - After applying damage/horror, if an enemy has damage equal to or higher than its health, it is defeated and placed in the encounter discard pile (or in its owner's discard pile if it is a weakness).
+       - After applying damage/horror, if an asset has damage equal to or higher than its health or horror equal to or higher than its sanity, it is defeated and placed in its owner's discard pile.
 *** Deck
+    There are 4 main types of decks that appear in any game: the Investigator Deck, the Encounter Deck, the Act Deck, and the Agenda Deck.
+    - The order of cards within a deck may not be altered unless a player is instructed to by a card ability.
+    See also: "Investigator Deck", "Encounter Deck", Act Deck and Agenda Deck"
 *** Deckbuilding
 *** Defeat
 *** Delayed Effects
