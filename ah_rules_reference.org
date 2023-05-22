@@ -235,33 +235,134 @@
      A revelation ability, indicated by a bold "*Revelation*" command on an encounter card or weakness, initiates as that card is drawn by an investigator.
 **** Triggered Abilities (TA)
      A triggered ability is any ability prefaced by either an Free (F) (Bolt), Reaction (R) (Circular Arrow), or Action (A) (Arrow) icon. If the ability has one or more prerequisites, these are listed in text immediately following the icon. A player must always meet the prerequisites of a triggered ability in order to trigger that ability. There are three types of triggered abilities:
-     Free triggered abilities (FTA) (Bolt) - An FTA may be triggered as a player ability during any player window (see Appendix 2).
-     Reaction triggered abilities (RTA) (Circular Arrow) - An RTA with a specific triggering condition may be triggered any time a specific condition is met. 
+     Free triggered abilities (*FTA*) (Bolt) - An FTA may be triggered as a player ability during any player window (see Appendix 2).
+     Reaction triggered abilities (*RTA*) (Circular Arrow) - An RTA with a specific triggering condition may be triggered any time a specific condition is met. 
      - An RTA with a triggering condition beginning with the word "when" may be used after the specific triggering condition initiates, but before its impact upon the game state resolves.
      - An RTA with a triggering condition beginning with the word "after" may be used immediately after that triggering condition's impact upon the game state has resolved.
      - Each RTA may be triggered only once each time the specified condition on the ability is met.
-     Action triggered abilities (ATA) (Arrow) - An ATA may be triggered during a player's turn in the investigation phase through the use of the activate action, and only if the player uses one action for each ATA specified in the ability's cost.
-     All triggered actions are governed by the 
+     Action triggered abilities (*ATA*) (Arrow) - An ATA may be triggered during a player's turn in the investigation phase through the use of the activate action, and only if the player uses one action for each ATA specified in the ability's cost.
+     All triggered actions are governed by the following rules:
+     - TAs on a card a player controls are optionally triggered (or not) by that player at the appropriate timing moment, as indicated by the ability.
+     - A TA can only be initiated if its effect has the potential to change the game state, and its cost (if any) has the potential to be paid in full, taking active cost modifiers into account. This potential is assessed without taking into account the consequences of the cost payment or any other ability interactions.
+     - Once an ability is initiated, players must resolve as much of the effect as possible, unless the effect uses the word "may".
+**** Keywords
+     A keyword is a card ability which conveys specific rules to its card.
+**** Spawn Instructions and Prey Insructions
+     Spawn instructions inform where an enemy spawns as it enters play.
+     Prey instructions inform which investigator an enemy pursues and/or engages if it has a choice.
+**** Action Designators
+Some abilities have bold action designators (such as Fight, Evade, Investigate, or Move). Activating such an ability performs the designated action as described in the rules, but modified in the manner described by the ability.
 *** Act Deck and Agenda Deck
+    The act deck represents the progress the investigators can make in a scenario. The agenda deck represents the progress and objectives of the dark forces arrayed against the invesetigators in a scenario. Generally, advancing the act deck is good for the investigators, and advancing the agenda deck is bad for the investigators.
+    - The act deck advances if the investigators, as a group, spend the requisite number of clues (as indicated by the act card). An act card may indicate a flat value (such as "4") or a per investigator value as (as indicated by the Inv icon). This is normally done as a FTA player ability. Any or all investigators may contribute any number of clues towards the total number of clues required to advance the act. If the act has an " *Objective* " instruction, that instruction overrides or adds additional requirements to the spending of those clues.
+    - The agenda deck advances if the requisite number of doom is in play (doom on the agenda card as well as doom on any other cards in play), as indicated by the agenda card. An agenda card may indicate a flat value or a per investigator value. If the agenda has an " *Objective* " instruction, that instruction overrides or adds additional requirements to meeting this doom requirement.
+    - The act/agenda on top of the act/agenda deck is referred to as the "current" act/agenda.
+    To advance the act deck or the agenda deck, follow these steps, in order:
+    1. Remove all tokens from the card to be advanced. If the agenda deck is advancing, remove all doom from each card in play.
+    2. Flip the advancing card over and follow the instructions on the reverse ("b") side.
+       - If the reverse side of the act or agenda is an encounter card, follow the rules for drawing that encounter cardtype. Otherwise, simply follow the instructions on the card.
+    3. Sometimes, the advancing act/agenda specifies which card becomes the next act/agenda. If it does not, the next card in the deck becomes the current act/agenda. As a new card becomes the current act/agenda, the advancing card is simultaneously removed from the game.
+       - Some instructions in the act and agenda decks (as well as on other encounter cardtypes) contain resolution points, in the format of: "( *R* )". If a resolution point is reached, the scenario ends. Read the designated resolution in the campaign guide.
+    See also: "Clues" and "Doom"
 *** Action
+    During his or her turn, an investigator is permitted to take up to *three* actions. When performing an action, all costs of the action are first paid. Then, the consequences of the action resolve.
+    - If an investigator is instructed to lose 1 or more actions, he or she has that many fewer actions to take during that round.
+    For a complete list of available actions, see "Timing and Gameplay"
 *** Activate Action
+    "Activate" is an action an investigator may take during his or her turn in the investigation phase.
+    When this action is taken, the investigator initiates an ability that specifies one or more ATA icons as part of its ability cost. The number of ATA icons in the ability's cost determines how many actions the investigator is required to use for this activate action. When performing an activate action, all of that action's costs are simultaneously paid. Then, the consequences of that action resolve.
+    An investigator is permitted to activate abilities from the following sources:
+    - A card in play and under his or her control. This includes his or her investigator card.
+    - A scenario card that is in play and at the same location as the investigator. This includes the location itself, encounter cards placed at that location, and all encounter cards in the threat area of any investigator at that location.
+    - The current act or agenda card.
 *** Active Player
+    The active player is the player taking his or her turn during the investigation phase.
 *** After
+    The word "after" refers to the moment immediately after the specified timing point or triggering condition has fully resolved.
+    /(For example, an ability card that reads "After you draw an enemy card" initiates immediately after resolving all of the steps for drawing an enemy - resolving its revelation ability, spawning it, etc.)/
+    See also: "Ability" "Priority of Simultaneous Resolution"
 *** Agenda Deck
+    See Act Deck and Agenda Decks
 *** Aloof
+    Aloof is a keyword ability. An enemy with the aloof keyword does not automatically engage investigators at its location.
+    - When an aloof enemy spawns, it spawns unengaged.
+    - An investigator may use the engage action or a card ability to engage and aloof enemy.
+    - An investigator cannot attack an aloof enemy while that enemy is not egaged with an investigator.
 *** Asset Cards
+    Asset cards represent items, allies, talents, spells, and other reserves that may assist or be used by an investigator during a scenario.
+    - When you play an asset, it is placed in your play area. Generally, assets remain in play unless discarded by a card ability or game step.
+    - Some assets have health and/or sanity. When an investigator is dealt damage or horror, that investigator may assign some or all of that damage or horror to eligible asset cards he or she controls.
+    - Most assets take up or more slots while in play.
+    - Some assets have an encounter set icon and no level indicator. Such assets are known as Story Assets. Story Assets are part of an encounter set and may not be included in a player's deck unless the resolution or setup of a scenario grants that player permission to do so.
 *** Attach To
+    If a card uses the phrase "attach to" it must be attached to the specified game element as it enters play. Once attached, such a card is referred to as an attachment.
+    - The "attach to" phrase is checked for legality each time a card would be attached to a game element, but is not checked again after that attachment occurs. If the initial "attach to" check does not pass, the card is not able to be attached, and remains in its prior state or game area. If such a card cannot remain in its prior state or game area, discard it.
+    - Once in play, an attachment remains attached until either the attachment or the game element to which it is attached leaves play (in which case the attachement is discarded), or unless a card ability explicitly detaches the card.
+    - An attachment exhausts and readies independently of the game element it's attached to.
 *** Attacker, Attacked
+    An "attacker" is an entity (usually an enemy or investigator) that is resolving its attack agains another entity. The entity being attacked is referred to as the "attacked enemy" or the "attacked investigator". 
 *** Attack of Opportunity
+    Each time an investigator is engaged with one or more ready enemies and takes an action other than to *fight*, to *evade*, or to activate a *parley* or *resign* ability, each of those enemies makes an attack of opportunity agains the investigator, in the order of the investigator's choosing. Each attack deals that enemy's damage and horror to the investigator.
+    - An attack of opportunity is make immediately after all costs of initiating the action that provoded the attack have been paid, but before the application of that action's effect upon the game state.
+    - An ability that costs more than one action only provokes one attack of opportunity from each engaged enemy.
+    - An enemy does not exhaust while making an attack of opportunity.
+    - After all attacks of opportunity are made, continue with the resolution of the action which investigated the attack.
+    - Attacks of opportunity count as enemy attacks for the purposes of card abilities.
 *** Automatic Failure/Success
+    Some card or token abilities may cause a skill test to automatically fail or to automatically succeed. If a skill test automatically fails or automatically succeeds, it does so during step "ST.6" of the "Skill Test Timing" process.
+    - If a skill test automatically fails, the investigator's total skill value for that test is considered 0.
+    - If a skill test automatically succeeds, the total difficulty of that test is considered 0.
 *** Base Value
+    Base value is the value of an element before any modifiers are applied. Unless otherwise specified, the base value of an element derived from a card is the value printed on that card.
 *** Bearer
+    The bearer of a weakness is the investigator who started the game with the weakness in his or her deck or playing area.
+    See also: "Weakness"
 *** Blank
+    If a card's printed text is considered "blank" by an ability, that text box is treated as if it did not have any of its printed content. Text and/or icons gained from another source are not blanked.
+    - A card's text box includes: traits, keywords, card text and abilities.
 *** Campaign Play
+    A campaign is a series of interrelated scenarios in which each player plays the same investigator from one scenario to the next. As a campaign progresses, the investigator gains experience and trauma, and this is reflected by changes in his or her deck. Each decision make in a campaign may have repercussions in a later scenario.
+    When starting a campaign, follow the instructions for that campaign's setup in the campaign guide. After playing through a scenario during a campaign, record the specified results of that scenario in the campaign log.
+**** Experience
+     After recording the results of a scenario, the investigators are ready to reflect on their experiences and purchase new cards for their decks. To do this, follow thse steps, in order:
+     1. Count experience. Each investigator earns experience equal to the total victory value of all cards in the victory display plus or minus any bonuses or penalties indicated by the campaign guide for that resolution. This total is added to any unspend experience an investigator has recorded from previous scenarios in this campaign.
+     2. Purchase new cards. New cards may be purchased and added to a player's deck by spending experience equal to the card's level (denoted by a number of pips in the upper left hand corner of the card). While purchasing new cards, observe the following rules:
+	- An investigator's deckbuilding guidelines (found on the back of the investigator card) must be observed while that investigator is purchasing new cards. Only cards the investigator has access to may be purchased. The deck-size requirements must also be maintained, so that for each (non-permanent) card purchased and added to a deck, a different card is removed from the deck. Weakness cards and cards that must be included in an investigator's deck may not be removed while that investigator is purchasing new cards.
+	- Each card costs experience equal to the card's level, /to a minimum of 1/ (purchasing a level zero card still costs 1 experience). The number of pips beneath a card's cost indicates the card's level.
+	- When purchasing a higher level version of a card with the same title, the investigator may choose to "upgrade" that card by paying only the difference in experience (to a minimum of 1) between the two cards and removing the lower level version of the card from his or her deck.
+	- New cards are purchased (or upgraded) individually. If an investigator wishes to purchase more than 1 copy of a new card, each copy must be paid for separately, and one card must be removed from that investigator's deck for each copy purchased.
+	- The above processes, and any specific instructions provided by the campaign guide, are the only methods by which a player may modify his or her deck during a campaign.
+**** Trauma
+     Trauma reflects permanent damage that has been done to an investigator's health and/or psyche.
+     If an investigator is defeated in a scenario that investigator is eliminated from the scenario but not necessarily from the campaign.
+     I fan investigator is defeated by taking damage equal to his or her health, he or she suffers 1 physical trauma (recorded in the campaign log). For each physical trauma an investigator has, taht investigator begins each subsequent scenario in the campaign with 1 damage. If an investigator has physical trauma equal to his or her printed health, the investigator is *killed*.
+     If an investigator is defeated by taking horror equal to his or her sanity, he or she suffers 1 mental trauma (recorded in the campaign log). For each mental trauma an investigator has, that investigator begins each subsequent scenario in the campaign with 1 horror. If an investigator has mental trauma equal to his or her printed sanity, the investigator is driven *insane*.
+     If an investigator is defeated by simultaneously taking damage equal to his or her health /and/ horror equal to his or her sanity, he or she chooses which type of trauma to suffer.
+     If an investigator is killed or driven insane, that player must choose a new investigator to use in the next scenario, and creates a new deck for that investigator. Investigators that are killed or driven insane cannot be used for the remainder of the campaign.
+     If a player attempts to choose a new investigator and there are not investigators remaining in the pool, the players have lost and the campaign ends.
+     See also: "Killed/Insane Investigators"
+**** Defeat by Card Ability
+     An investigator may be defeated by a card ability. A defeated investigator is eliminated from the game. Should this occur, follow the instructions on the card ability to determine if there are any long-term repercussions of the defeat.
+**** Advancing to Next Scenario
+     After completing a scenario, resolving its resolution, updating the campaign log, and purchasing any new cards, advance to the next scenario (sequentially) in the campaign, unless the scenario resolution explicitly directs the investigators to a different scenario.
+**** Joining or Leaving a Campaign
+     Once a campaign has begun, players can freely drop in and out of the campaign in between scenarios.
+     If a player leaves the campaign, do not delete that palyer's information from the campaign log, as he or she may re-join at any time between scenarios.
+     If a new player joins the campaign, he or she must choose an investigator not previously used during this campaign. That player begins as if it were his or her first scenario in the campaign, with no experience and no trauma.
 *** Cancel
+    Some card abilities can "cancel" other card or game effects. Cancel abilities interrupt the initiation of an effect, and prevent the effect from initiating.
+    - Any time the effects of an ability are canceled, the ability (apart from its effects) is still regarded as initiated, and any costs have still been paid. The effects of the ability, however, are prevented from initiating and do not resolve.
+    - If the effects of an event card are canceled, the card is still regarded as played, and it is still placed it its owner's discard pile.
+    - If the effects fo a treachery card are canceled, the card is still regarded as having been drawn, and it is still placed in the encounter discard pile.
 *** Cannot
+    The word "cannot" is aboslute, and cannot be countermanded by other abilities.
 *** Cardtypes
+    The game's cardtypes are presented in Appendix 4, with detailed card anatomies.
+    - If an ability causes a card to change its cardtype, it loses all other cardtypes it might possess and functions as would any card of the new cardtype.
+    See also: "Asset Cards", "Enemy Cards", "Event Cards", "Location Cards", "Skill Cards", "Trechery Cards"
 *** Chaos Tokens
+    Chaos tokens are revealed from the chaos bag during skill tests, to modify or influence the results of the skill test.
+    S (Skull), C (Cultist), O (Old One), T (Tablet) - If any of these tokens are
 *** Clues
 *** Collection
 *** Constant Abilities
