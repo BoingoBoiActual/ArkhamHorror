@@ -375,7 +375,7 @@ Some abilities have bold action designators (such as Fight, Evade, Investigate, 
     - A card ability that refers to clues "at a location" is referring to the undiscovered clues that are currently on that location.
     See also: "Act Deck and Agenda Deck", "Tokens, Running out of"
 *** Collection
-    If an ability refers to a player's collection (/for example, "search the collection"/), the collection of cards from which that player's deck was assembled is used.
+    If an ability refers to a player's collection (/for example, "search the collection"/ ), the collection of cards from which that player's deck was assembled is used.
     /Example: Sean and Etienne are each using a deck built from Sean's collection. If Etienne is instructed to "search the collection", he searches Sean's collection/
 *** Constant Abilities
     See "Ability"
@@ -411,12 +411,49 @@ Some abilities have bold action designators (such as Fight, Evade, Investigate, 
     - The order of cards within a deck may not be altered unless a player is instructed to by a card ability.
     See also: "Investigator Deck", "Encounter Deck", Act Deck and Agenda Deck"
 *** Deckbuilding
+    When building a custom deck, the following guidelines must be observed:
+    - A player must choose exactly 1 investigator card
+    - A player's investigator deck must include the exact number of cards indicated on the back of his or her investigator card as the "Deck Size". Weaknesses, investigator-specific cards, and scenario cards that are added to a player's deck do not count towards this number.
+    - A player's investigator deck may not include more than 2 copies (by title) of any given player card.
+    - Each standard player card in a player's investigator deck must be chosen from among the "Deckbuilding Options" aviailable on the back of his or her investigator card.
+    - Most investigators have 0 experience to spend at the beginning of a campaign, which means that they may only include level 0 cards in their decks. Some investigators and/or some campaigns, may provide a player with additional experience at the beginning of a campaign, which can be used immediately to purchase higher level cards.
+    - All other "Deckbuilding Requirements" listed on the back of a player's investigator card must be observed.
+    - Each required random basic weakness is added to a player's deck at the end of the deckbuilding process.
+    - Story Assets may not be included in a player's deck unless the setup or resolution of a scenario grants that player permission to do so. These assets are indicated by the lack of a card level and the presence of an encounter set symbol.
+    - During a campaign, players build a deck before playing the first scenario. In between scenarios, players can purchase new cards or upgrade cards in their deck following the rules found under "Campaign Play".
+**** Classes
+     Most player cards, including investigators, belong to one of the 5 classes. Each class has its own distinct flavor and identity, as described below.
+     *Guardians* (G) feel compelled to defend humanity, and thus go out of their way to combat the forces of the Mythos. They have a strong sense of duty and selflessness that drives them to protect others, and to hunt monsters down.
+     *Mystics* (M) are drawn to and influenced by the arcane forces of the Mythos. Many have spell-casting abilities, able to manipulate the forces of the universe through magical talent.
+     *Rogues* (R) are self-serving and out for themselves. Wily and opportunistic, they are always eager for a way to exploit their current situation.
+     *Seekers* (Se) are primarily concerned with learning more about the world and about the Mythos. They wish to research forgotten lore, map out uncharted areas, and study strange creatures.
+     *Survivors* (Su) are everyday people in the wrong place at the wrong time, simply trying to survive. Ill-prepared and ill-equiped, Survivors are the underdogs, who rise to the occasion when their lives are threatened.
+     Some cards are not affiliated with any class; these cards are neutral.
+     Generally, investigators only have access to cards from their class. Some investigators have access to cards from other classes. Refer to the "Deckbuilding Options" on the back of an investigator card to view which cards an investigator has access to.
 *** Defeat
+    Taking damage and/or horror may cause an investigator, enemy, or asset to be defeated.
+    - If an investigator has as much or more damage on it as it has health (or as much or more horror on it as it has sanity), that investigator is defeated. An investigator might also be defeated by a card ability. When an investigator is defeated, he or she is eliminated from the scenario (see "Elimination").
+    - In campaign play, an investigator that is defeated by taking damage equal to his or her health suffers 1 physical trauma. An investigator that is defeated by taking horror equal to his or her sanity suffers 1 mental trauma. Taking trauma may causae an investigator to be *killed* or driven *insane* (see "Campaign Play").
+    - If an enemy has a much or more damage on it as it has health, that enemy is defeated and placed on the encounter discard pile (or on its owner's discard pile if it is a weakness).
+    - If an asset with a health value has as much or more damage that it has health, it is defeated. If an asset with sanity value has as much or more horror that it has sanity, it is defeated. A defeated asset is placed on its owner's discard pile.
 *** Delayed Effects
+    Some abilities create delayed effects. Such abilities specify a future timing point, or indicate a future condition that may arise, and dictate an effect that will happen at that time.
+    - Each delayed effect initiates automatically and immediately (as a forced ability) if its future timing point or future condition occurs.
+    - A delayed effect affects all specified entities that are in the specified game area and eligible at the time the delayed effect resolves.
 *** Difficulty (level)
+    There are four levels of difficulty in /Arkham Horror: The Card Game:/ Easy, Standard, Hard, and Expert. At the beginning of a campaign or standalone scenario, the players choose which difficulty level to use. The campaign setup section of that campaign or scenario's Campaign Guide indicates which chaos tokens should be placed into the chaos bag when playing on each difficulty level.
+    - When playing in Easy or Standard mode, use the "Easy/Standard" side of each scenario's reference card. When playing in Hard or Expert mode, use the "Hard/Expert" side of each scenario's reference card instead.
 *** Difficulty (skill tests)
+    The difficulty of a skill test is the target number an investigator is trying to equal or exceed with his or her modified skill value to pass that test.
+    - When attacking an enemy, the base difficulty of the skill test is the enemy's fight value.
+    - When investigating a location, the base difficulty of the skill test is the location's shroud value.
+    - When attempting to evade an enemy, the base difficulty for the skill test is the enemy's evade value.
+    - When resolving a skill test created by a card ability, the base difficulty is indicated as a parenthetical value following the indication of which skill is being tested. /For example: Intellect (3)/.
+    Also see: "Skill Test Timing"
 *** Direct Damage, Direct Horror
+    If an ability causes a card to take direct damage or direct horror, that damage or horror must be assigned directly to the specified card, and cannot be assigned or re-assigned elsewhere.
 *** Discard Piles
+    
 *** Doom
 *** Draw Action
 *** Drawing Cards
