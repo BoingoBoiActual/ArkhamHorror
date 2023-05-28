@@ -453,16 +453,60 @@ Some abilities have bold action designators (such as Fight, Evade, Investigate, 
 *** Direct Damage, Direct Horror
     If an ability causes a card to take direct damage or direct horror, that damage or horror must be assigned directly to the specified card, and cannot be assigned or re-assigned elsewhere.
 *** Discard Piles
-    
+    Any time a card is discarded, it is placed faceup on top of its owner's discard pile. Encounter cards are owned by the encounter deck.
+    - Each discard pile is an out-of-play area.
+    - Each investigator has his or her own discard pile, and the encounter deck has its own discard pile.
+    - Each discard pile is open information, and may be looked at by any player at any time.
+    - The order of cards in the discard pile may not be altered unless a player is instructed to do so by a card ability.
+    - If multiple cards are discarded simultaneously, the owner of the cards may physically place them on top of his or her discard pile one at a time, in any order. If multiple counter cards are discarded simultaneously, they are placed on top of the encounter discard pile in any order (determined by the lead investigator).
+    - Any ability that would shuffle a discard pile of zero cards back into a deck does not shuffle the deck.
 *** Doom
+    Doom prepresents the progress the forces of the Mythos make towards completing foul rituals, summoning cosmic entities, and/or advancing a scenario's agenda.
+    - During each Mythos phase, 1 doom is placed on the current agenda.
+    - If there are no " *Objective* " requirements for advancing the current agenda and the requisite amount of doom is in play (among the agenda and all cards in play), the agenda advances during the "Check doom threshold" step of the Mythos phase. Unless a card otherwise specifies that it can advance the agenda, this is the only time at which the agenda can advance.
+    - Doom on cards other than the agenda (such as enemies, allies, locations, etc.) counts towards the amount of doom in play.
+    See also: "Act Deck and Agenda Deck", "Tokens, Running out of"
 *** Draw Action
+    "Draw" is an action an investigator may take during his or her turn in the investigation phase.
+    When an investigator takes this action, that investigator draws one card from his or her deck.
 *** Drawing Cards
+    When a player is instructed to draw one or more cards, those cards are drawn from the top of his or her investigator deck and added to his or her hand.
+    When a player is instructed to draw one or more encounter cards, those cards are drawn from the top of the encounter deck, and resolved following the rule for drawing encounter cards under frameworks step.
+    - When a player draws two or more card as the result of a single ability or game step, those cards are drawn simultaneously. If a deck empties mid-draw, reset the deck and complete the draw
+    - There is no limit to the number of cards a player may draw each round.
+    - If an investigator with an empty investigator deck needs to draw a card, that investigator shuffles his or her discard pile back into his or her deck, then draws the card, and upon completion of the entire draw takes one horror.
 *** Effects
+    A card effect is any effect that arises from the resolution of ability text printed on, or gained by, a card. A frameword effect is any effect that arises from the resolution of a frameword event.
+    - Card effects may be preceded by costs, triggering conditions, play restrictions, and/or play permissions; such elements are not considered effects (see "Ability").
+    - Once initiated, players must resolve as much of each aspect of the effect as they are able, unless the effect uses the word "may".
+    - When a non-targeting effect attempts to interact with a number of entities (such as "draw 3 cards" or "search the top 5 cards of your deck") that exceeds the number of entities that currently exist in the specified game area, the effect interacts with as many entities as possible.
+    - The expiration of a lasting effect (or the cessation of a constant ability) is not considered to be generating a game state change by a card effect.
+    - All aspects of an effect have timing priority over all "after..." triggering conditions that might arise as a consequence of that effect. /(For example, if an effect reads "Gain 3 resources and draw 3 cards," resolve both aspects of the effect (gaining resources and drawing cards) before initiating an ability that reads "After drawing a card...")/
+    - See also: "Delayed Effects", "Lasting Effects", "Priority of Simultaneous Resolution"
 *** Elimination
+    A player is eliminated from a scenario any time his or her investigator is defeated, or if he or she resigns. The only manner in which eliminated investigators interact with the game when establishing "per investigator" values. Any time a player is eliminated:
+    1. The cards he or she controls in play and all of the cards in his or her out-of-play areas (such as hand, deck, discard pile) are removed from the game.
+       - Any card that player owns but does not control that is in play remains in play, but if that card leaves play it is removed from the game.
+    2. All clue tokens that player possesses are placed at the location the investigator was at when he or she was eliminated, and all of that player's resource tokens are returned to the token pool.
+    3. All enemies engaged with that player are placed at the location the investigator was when he or she was eliminated, unengaged but otherwise maintaining their current game state.
+    4. All other cards in the eliminated investigator's threat area are placed in the appropriate discard pile.
+    5. If the lead investigator is eliminated, the remaining players (if any) choose a new lead investigator.
+    6. If there are no remaining players, the scenario ends. Refer to "no resolution was reached" antry for that scenario in the campaing guide.
 *** Empty Location
+    An empty location is a location with no enemies or investigators at it.
 *** Encounter Deck
+    The encounter deck contains the enctounter cards (enemy, treachery, and story asset cards) the investigators may encounter during a scenario.
+    - If the encounter deck is empty, shuffle the encounter discard pile back into the encounter deck.
 *** Encounter Sets
+    An encounter set is a collection of encounter cards, denoted by a common encounter set symbol near each card's cardtype.
 *** Enemy Cards
+    Enemies represent villains, cultists, ne'er-do-wells, terrible monsters, and unfathomable entities from alternate dimensions or the cosmos beyond.
+    When an enemy card is drawn by an investigator, that investigator must spawn it following any spawn direction the card bears. If the encountered enemy has no spawn direction, the enemy spawns engaged with the investigator encountering the card and is placeds in that investigator's threat area.
+    See "1.4 Each investigator draws 1 encounter card"
+    - A ready, unengaged enemy engages any time it is at the same location as an investigator (see "Enemy engagement")
+    - If an investigator is engaged with a ready enemy and takes an action other than to *fight*, to *evade*, or to activate a *parley* or *resign* ability, that enemy makes an attack of opportunity (see "Attack of Opportunity").
+    - Enemies with the hunter keyword move during the Enemy Phase (see "III. Enemy phase").
+    - Engaged enemies attack during the Enemy Phase (see "III. Enemy phase").
 *** Enemy Engagement
 *** Enemy Phase
 *** Engage Action
