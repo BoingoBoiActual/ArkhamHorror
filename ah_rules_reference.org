@@ -625,10 +625,37 @@ Some abilities have bold action designators (such as Fight, Evade, Investigate, 
 *** Skill Test Timing
 ** Appendix 3: Set Up the Game
 ** Appendix 4: Card Anatomy
+* Carnevale of Horrors
+** Expansion
+   - /Carnevale of Horrors/
+/Carnevale of Horrors/ can be played in one of two ways: As a standalone scenario, or as a side-story inserted into any campaign.
+** Standalone Mode
+   When played as a standalone scenario, follow the steps for Standalone Mode in the Rules Reference. There is no campaign guide for /Carnevale of Horrors/; instead refer to this card for additional setup instructions.
+   When played as a standalone scenario, /Carnevale of Horrors/ has only two difficulty modes. Construct the chaos bag with the following tokens:
+   - Standard: +1, 0, 0, 0, -1, -1, -1, -2, -3, -4, -6, S, S, S, C, T, O, F, E
+   - Hard: +1, 0, 0, 0, -1, -1, -3, -4, -5, -6, -7, S, S, S, C, T, O, F, E
+** Side-Story (Campaign Mode)
+   A side-story is a scenario that may be played between any two scenarios of an /Arkham Horror: The Card Game/ campaign. Playing a side-story costs each investigator in the campaign with a certain amount of experience. Weaknesses, trauma, experience, and rewards granted by playing a side-story stay with the investigators for the remainder of the campaign. Each side-story may only be played once per campaign.
+   When played as a side-story during a campaign, play this scenario as if you are setting up the next scenario in the campaign, with the same chaos bag, weaknesses, trauma, and story assets previously earned.
+   *Playing the /Canrevale of Horrors/ side-story costs each investigator 3 experience.*
+** Setup
+   - Gather all cards from the /Carnevale of Horrors/ encounter set, indicated by this icon.
+   - Choose 1 location at random and remove it from the game. If San Marco Basilica or Canal-side is chosen, randomly choose a different location instead.
+   - Put the other 8 locations into play, in a random circular formation. Each investigator begins play at San Marco Basilica. Put Abbess Allegria Di Biase into play at San Marco Basilica.
+   - Shuffle the 7 Masked Carnevale-Goers and put 1 into play at each location other than San Marco Basilica, Masked Carnevale-Goer side face-up. Do not look at their other sides.
+   - Set the following cards aside, out of play: Cnidathqua, Pantalone, Medico Della Peste, Bauta, Gilded Volto.
+   - Shuffle the remainder of the encounter cards to build the encounter deck.
+** Additional Clarifications
+*** Location Setup
+In this scenario, locations are placed in a circle. Due to the parade during the Carnevale, each location is connected only to the location in the clockwise direction. This means that investigators and monsters can only travel (or count the nearest location) in the clockwise direction unless otherwise directed.
+*** Counter-Clockwise
+Some cards instruct the players to find the nearest location in the counter-clockwise direction. This is an exception to the above rule and should be followed as though locations are connected counter-clockwise.
+*** "Across From"
+The location "across from" another location is the farthest location, equidistant in both the clockwise and counter-clockwise directions. For the purposes of this scenario, "across from your location" and "across from you" have the same meaning.
 * Curse of the Rougarou
 ** Expansion
    - /Curse of the Rougarou/
-   /Curse of the Rougarou/ can be played in one of two ways: As a standalone scenario, or as a side-story inserted into any campaig
+/Curse of the Rougarou/ can be played in one of two ways: As a standalone scenario, or as a side-story inserted into any campaign.
 ** Standalone Mode
    When played as a standalone scenario, follow the steps for Standalone Mode as defined in the rules reference. There is no campaign guide for /Curse of the Rougarou/; instead refer to the section below for additional setup instructions. 
    When played as a standalone scenario, /Curse of the Rougarou/ has only two difficulty modes. Construct the chaos bag with the following tokens:
