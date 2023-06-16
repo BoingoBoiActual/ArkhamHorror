@@ -508,10 +508,32 @@ Some abilities have bold action designators (such as Fight, Evade, Investigate, 
     - Enemies with the hunter keyword move during the Enemy Phase (see "III. Enemy phase").
     - Engaged enemies attack during the Enemy Phase (see "III. Enemy phase").
 *** Enemy Engagement
+    While an enemy card is in play, it is either engaged with an investigator (and placed in that investigator's threat area), or it is unengaged and at a location (and placed at that location). Each enemy in an investigator's threat area is considered to be at the same location as that investigator, and should the investigator move, the enemy remains engaged and moves to the new location simultaneously with the investigator.
+    Any time a ready unengaged enemy is at the same location as an investigator, it engages that investigator, and is placed in that investigator's threat area. If there are multiple investigators at the same location as a ready unengaged enemy, follow the enemy's prey instructions to determine with investigator is engaged. There is no limit on the number of enemies that can be engaged with a single investigator.
+    /For example, a ready unengaged enemy immediately engages if:/
+    - /It spawns at the same location as an investigator/
+    - /It moves into the same location as an investigator/
+    - /An investigator moves into the same location as it./
+    An exhausted unengaged enemy does not engage, but if an exhausted enemy at the location as an investigator becomes ready, it engages as soon as it is readied.
+    - /Note: An enemy with the Aloof keyword does not engage in the manner described above./
 *** Enemy Phase
+    See Enemy Phase
 *** Engage Action
+    "Engage" is an action an investigator may take during his or her turn in the investigation phase.
+    To engage an enemy at the same location /(for example, this could be done to engage an eshausted enemy, an aloof enemy, or an enemy enaged with another investigator)/, an investigator places the chosen enemy in his or her threat area. The investigator and the enemy are now engaged.
+    - An investigator may perform the engage action to engage an enemy that is engaged with a different investigator at the same location. The enemy simultaneously disengages from the previous investigator and engages the invstigator performing the action.
+    - An investigator cannot use the engage action to engage an enemy he or she is already engaged with.
 *** Enters Play
+    The pharse "enters play" refers to any time a card makes a transition from an out-of-play area into a play area (see In Play and Out of Play).
+    - If an ability (either from the card itself or from another card) causes a card to enter play in a state different from that specified by the rules, there is no transition to that state. It merely enters play in that state.
 *** Evade, Evade Action
+    "Evade" is an action an investigator may take during his or her turn in the investigation phase.
+    To evade an enemy engaged with an investigator, that investigator makes an agility test against the enemy's evade value (see Skill Tests).
+    If the test is successful, the investigator successfully evades the enemy (see below).
+    If the test fails, the investigator does not evade the enemy, and it remains engaged with him or her.
+    - If an ability "automatically" evades 1 or more enemies, no skill test is make for the evasion attempt.
+    - Any time an enemy is evaded (whether by an event action, or by card ability), the enemy is exhausted (if it was ready) and the engagement is broken. Move the enemy from the investigator's threat area to the investigator's location to mark that it is no longer engaged with that investigator.
+    - Unlike the fight and engage action, an investigator can only perform an evade action against an enemy engaged with him or her.
 *** Event Cards
 *** Exceptional
 *** Exhaust, Exhausted
@@ -625,6 +647,36 @@ Some abilities have bold action designators (such as Fight, Evade, Investigate, 
 *** Skill Test Timing
 ** Appendix 3: Set Up the Game
 ** Appendix 4: Card Anatomy
+
+* Investigator Additional Rules
+** Customizable
+   Customizable is a keyword that appears on some player cards in this expansion. Customizable cards might seem unremarkable at first, but have tremendous potential for improvement over the course of a campaign. By spending experience points, each one can be custom-tailored to become a powerful tool in an investigator's deck.
+   Each customizable card starts at level 0 and has a separate sheet containing a checklist of upgrades that can be perchased using experience points. Each upgrade is accompanied by one or more checkboxes.
+   Unless otherwise specified by a card effect, an investigator can only mark checkboxes on an upgrade sheet before or after a scenario, when they are upgrading their deck or purchasing new cards for their deck. Spending 1 point of experience allows an invstigator to mark one checkbox on one of their card's upgrade sheets.
+   To purchase an upgrade, an investigator must mark all of an upgrade's checkboxes. Once an upgrade is purchased, /each copy/ of the card it is paired with is treated as having that upgrade (as a gained card ability) for that investigator only.
+   - A customizalbe card's level is equal to have the total number of checkboxes marked on its upgrade sheet, rounded up.
+     - /Note that this emans some investigators are not able to upgrade a customizable card past a certain point, if their deckbuilding options would forbid them from including the card in their deck after the upgrade is made/
+   - An upgrade sheet cannot have more than a total of 10 checkboxes marked.
+   - Spending experience points on one or more upgrades for a customizable card already in an invstigator's deck is considered to be "upgrading" a card for the puposes of card effects.
+   - An investigator may directly purchase one or more copies of a customizable card with one or more upgrades by spending /only/ the amount of experience points required to purchase those upgrades. /(Doing so counts as purchasing a new card, not upgrading an existing card.)/
+   - Upgrades for customizable cards are considered to be present on a card at all times (even while the card is in an out-of-play area, such as an investigator's hand or discard pile).
+   - Spending 1 or more experience points on upgrades on a customizable card's upgrade hseet is permanent and cannot be refunded.
+   - During gameplay, upgrade sheets should be placed in an out-of-play area nearby, so they can be quickly referenced.
+** Dilemmas and Revelation Abilities
+   Some player cards in this expansion (namely those with the *Dilemma* trait) possess revelation abilities. As with revelation abilities on other cardtypes, these abilities resolve when the card is drawn or otherwise enters your hand, not when the card is played.
+   - These cards have not cost ("-"). These cards cannot be played; their effects only resolve when they are drawn or added to your hand.
+   - After resolving a revelation ability on a player card, place it in its owner's discard pile.
+   - Revelation abilities do not resolve during setup. If one or more player cards with revelation abilities are drawn during setup, wait until the game begins, then each player (in player order) resolves all of their own revelation abilities in the order of their choosing.
+** "Exile"
+   Some player cards must be exiled when they are used. When a card is exiled, it is removed from the game and returned to the collection. During campaign play, a card that has been exiled must be purchased again with experience points (between scenarios) before an investigator can re-include it in their deck. If exiling one or more cards would reduce an investigator's deck below their deck size, when purchasing cards between scenarios, they must purchase cards so that a legal deck size is maintained (when purchasing cards in this manner, they may purchase level-0 cards for 0 experience cost until a legal deck size is reached).
+** Lola and "Roles"
+   As a renowned actrss, Lola Hayes can play many different roles. At the beginning of each scenario, after investigators draw opening hands, Lola Hayes must choose a role (Neutral, Guardian, Seeker, Rogue, Mystic, or Survivor). Lola can only play cards, commit cards to skill tests, or trigger ATA, FTA, or RTA abilities on Neutral cards or cards whose class matches her role. This restriction only applies to player cards, not to encounter cards or weaknesses. Notes that Constant and *Forced* abilities remain active on cards whose class does not match Lola's role.
+** Researched
+   Researched is a keyword ability that appears on some higher-level cards (most prominently on Seeker cards).
+   To be included in an investigator's deck, a card with the Researched keyword must first be "identified" or "translated" by performing a task on the lower-level version of that card and recording the result in your Campaign Log.
+   - An investigator can only include a researched card in their deck by upgrading it from its lower-level version.
+   - An investigator can only include a researched card in their deck if, in their Campaign Log, they have recorded the completion of the task described in the lower-level version of that card.
+   - After an investigator has completed this task and recorded it in the Campaign Log, any investigator in that campaign may upgrade that relevant card following the normal rules for upgrading player cards.
 * Carnevale of Horrors
 ** Expansion
    - /Carnevale of Horrors/
