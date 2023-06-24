@@ -924,8 +924,16 @@ Some abilities have bold action designators (such as Fight, Evade, Investigate, 
     The word "when" refers to the moment immediately after the specified timing point or triggering condition initiates, but before its impact upon the game state resolves. The resolution of a "when" ability interrupts the resolution of its timing point or triggering condition. (/For example, an ability that reads "When you draw an enemy card" initiates immediately after you draw the enemy card, but before resolving its revelation ability, spawning it, etc./)
     See also: Ability, Priority of Simultaneous Resolution
 *** Winning and Losing
-    
+    Eacn scenario has a number of different possible endings.
+    The act deck represents the progress of the investigators through a scenario. Some instructions in the act deck (as well as on other encounter card types) contain resolution points, in the format of : "(-> *R#*)". The players' primary objective is to advance through the act deck until a (hopefully favorable) resolution point is reached. Shoudl the act deck invoke a resolution, the players have completed the scenario (they may have even "won!"). Instructions for resolving the designated resolution are found in the "do not read until end of game" section of the campaign manual.
+    The agenda deck represents the objectives and progress of the malicious forces pitted against the investigators in the scenario. Some instructions in the agenda deck (as well as on other encounter cardtypes) also contain resolution points, in the format of: "(-> *#R*)". Should the agenda deck invoke a (usually darker) resolution, the players have lost the scenario. Instructions for resolving the designated resolution are found in the "do not read until end of game" section of the campaign guide.
+    Should the scenario end with no resolution being reached (/for example, if all investigators have been eliminated or have resigned/), instructions for resolving the scenario can be found in the "do not read until end of game" section of the campaign guide.
+    - If playing in a campaign, players will proceed to the next scenario in the campaign regardless of the outcome of the scenario. Even if players "lose" a scenario, they still continue their campaign (although with some negativ consequences from their failure).
+    - When playing a standalone scenario, players either win or lose the scenario. They win if they complete a resolution on an act card. Any other esolution is considered a loss (see Standalone Mode)
+    See Act Deck and Agenda Deck
 *** The letter 'X'
+    The value of the letter X is defined by a card ability or a granted player choice. If X is not defined, its value is equal to 0.
+    - For costs involving the letter X, the value of X is defined by card ability or player choice, after which the amount paid may be modified by effects without altering the value of X.
 *** You/Your
     - An ability on a card in play referencing "you" or "your" refers to the investigator who controls, is engaged with, or is currently interacting with the card.
     - A Revelation ability that references "you" or "your" refers to the investigator who drew the card and is resolving the ability.
