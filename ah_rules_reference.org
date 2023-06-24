@@ -596,75 +596,335 @@ Some abilities have bold action designators (such as Fight, Evade, Investigate, 
     - If a hunter enemy would be compelled to a locaiton to which the move is blocked by a card ability, the enmy does not move.
     See Prey
 *** Immune
-
+    If a card is immune to a specified set of effects (/for example, "immune to treachery card effects," or "immune to player card effects"/), it cannot be affected by or chosen to be affected by effects belonging to that set. Only the card itself is protected, and peripheral entities associeated with an immune card (such as attached assets, tokens placed on, or abilities originating from and immune card) are not themselves immune. 
+    - If a card gains immunity to an effect, pre-existing lasting effects that have been applied to the card are not removed. If a card loses immunity to an effect, pre-existing lasting effects of that nature are not applied to the card.
+    - Immunity only protects a card from effects. It does not protect a card from costs.
 *** In Play and Out of Play
+    The cards that a player controls in his or her play area are considered in play.
+    The current act, the current agenda, each location in the play area, and each encounter card in a investigator's threat area or a location, are all considered in play.
+    Out of play refers to the cards in a player's hand, in any deck, in any discard pile, in the victory display, and those that have been set aside and/or removed from the game.
+    - A card enters play when it transitions from an out-of-play origin to an in play area.
+    - A card leaves play when it transitions from a in play area to an out-of-play destination.
+    - Tokens on in play cards are considered in play. Resources in each investigator's resource pool are also considered in play.
 *** In Player Order
+    If the players are instructed to perform a sequence "in player order," the lead investigator performs his or her part of the sequence first, followed by the other players in clockwise order. The phrase "the next player" is used in this context to refer to the next player (clockwise) to act in player order.
 *** Instead
+    The word "instead" is indicative of a replacement effect. A replacement effect is an effect that replaces the resolution of a triggering condition with an alternate means of resolution.
+    - If multiple replacement effects are initiated agains the same triggering condition and create a conflict in how to resolve the triggering condition, the most recent replacement effect is the one that is used for the resolution of the triggering condition.
+    - The word "would" is used to define the triggering condition of some abilities, and establishes a higher priority for those abilities than abilities referencing the same triggering condition without the word "would". (For instance "When X would occur" resolves before "When X occurs")
+    - If a replacement effect that uses the word "would" changes the nature of a triggering condition, the original triggering condition is replaced with the new triggering condition. No further abilities referencing the original triggering condition may be used.
 *** Investigate Action
+    "Investigate" is an action an investigator may take during his or her turn in the investigation phase.
+    Each time an investigator takes this action, he or she makes an intellect test against the shroud value of that location (see Skill Tests).
+    If the test is successful, the investigator has succeeded in investigating the location, he or she discovers one clue at the location. 
+    Any time an investigator discovers a clue from a location, that player takes the clue from the location and places it on his or her investigator card, under his or her control.
+    If the test is failed , the investigator has failed in investigating the locaiton. No clues are discovered during step 7 of the skill test.
 *** Investigation Phase
+    See Investigation Phase in gameplay
 *** Investigator Deck
+    A player's "investigator deck" is the deck that contains that player's asset, event, skill, and weakness cards. A reference to "your deck" refers to the investigator deck under your control.
 *** Keywords
+    A keyword is a card ability which conveys specific rules to its card. Each keyword has its own rules which can be found in the keyword's own section of the glossary. The keywords in this game are: aloof, fast, hunter, massive, peril, retaliate, surge, uses.
+    - There are also two deckbuilding keywords: exceptional and permanent. Deckbuilding keywords affect deck customization while building and/or leveling up a deck. They have no effect during gameplay. There are no exceptional or permanent cards in the core set - each of these keywords will be presented in future expansions.
+    - A single card that has and/or is gained the same keyword from multiple sources functions as if it has one instance of that keyword.
+    - The initiation of any keyword which uses the word "may" in its keyword description is optional. The application of all other keywords is mandatory.
+    See Ability
 *** Killed/Insane Investigators
+    During campaign play, investigators who are killed or driven insane must be recorded in your campaign log and cannot be used for the remainder of the campaign.
+    - An investigator with physical trauma equal to or higher than his or her printed health is killed.
+    - An investigator with mental trauma equal to or higher than his or her printed sanity is driven insane. 
+    - An investigator may also be killed or driven insane by card ability, or during a scenario's resolution.
+    - When playing a standalone scenario, there is no practical difference between being killed, driven insane, or defeated.
+    See Campaign Play
 *** Lasting Effects
+    Some card abilities create conditions that affect the game state for a specified duration (/for example, "until the end of the phase" or "for this skill test"/). Such effects are known as lasting effects.
+    - A lasting effect persists beyond the resolution of the ability that created it, for the duration specified by the effect. The effect continues to affect the game state for the specified duration regardless of whether the card that created the lasting effect is or remains in play.
+    - If a lasting effect affects in-play cards (or cards in a specified area), it is only applied to cards that are in play (or the specified area) when the lasting effect is established. Cards that enter play (or the specified area) after its establishment are not affected by the lasting effect.
+    - A lasting effect expires as soon as the timing point specified by its duration is reached. This means that an "until the end of the phase" lasting effect expires before an "at the end of the phase" ability or delayed effect may initiate.
+    - A lasting effect that expires at the end of a specific time period can only be initiated during that time period.
 *** Lead Investigator
+    The lead investigator is sometimes required to make important scenario decisions. At the beginning of a scenario, the investigators choose a lead investigator. If they cannot agree on a choice, a lead investigator is chosen at random.
+    - If there are ever multiple valid options for a choice or decision that must be made (/for example, a hunter enemy that could move in two different directions/), the lead investigator is the final arbiter in choosing among those options.
+    - If the lead investigator is eliminated, the remaining players (if any) choose a new lead investigator. 
 *** Leaves Play
+    The phrase "leaves play" refers to any time a card makes a transition from an in-play state to an out-of-play state (see In Play and Out of Play).
+    If a card leaves play, the following consequences occur simultaneously with the card leaving play:
+    - All tokens on the card are returned to the token pool.
+    - All attachments on the card are discarded.
+    - All lasting effects and/or delayed effects affecting the card while it was in play expire for that card.
 *** Limits and Maximums
+    "*Limit X per [period]*" is a limit that appears on cards that remain in play through the resolution of an ability's effect. Each instance of an ability with such a limit may be initiated X times during the designated period. If a card leaves play and re-enters play during the same period, the card is considered to be bringing a new instance of the ability to the game. 
+    "*Limit X per [card/game element]*" is a limit that appears on attachment cards, and restricts the number of copies of that card (by title) that can be attached to each designated card or game element.
+    - Unless stated otherwise, limits are player specific.
+    - A "group limit", however applies to the entire group of investigators. (/For example, if an investigator triggers an ability that is "group limit once per game", no other investigators may trigger that ability during that game/)
+    "*Max X per [period]*" imposes a maximum across all copies of a card (by title) for all players. Generally, this phrase imposes a maximum number of times that copies of that card can be played during the designated time period. If a maximum includes the word "committed" (/For example, "Max 1 commited per skill test/), it imposes a maximum number of copies of that card that can be committed to skill test during the designated period. If a maximum appears as part of an ability, it imposes a maximum number of times that ability can be initiated from all copies (by title) of cards bearing that ability (including itself), during the designated period.
+    If the effects of a card or ability with a limit or maximum are canceled, it is still counted against the limit/maximum, because the ability has been initiated.
 *** Location Cards
+    Location cards represent the places the investigators may explore during a scenario.
+    - Use each investigator's mini-card to indicate which location he or she is at.
+    - While an investigator is at a location, that investigator, each of his or her assets, and each card in that investigator's threat area is at the same location.
+    - Locations enter play in an "unrevealed" state, so that the side with no shroud value and/or clue value is faceup. Do not read "revealed" side at this time.
+    - The first time a location is entered by an invetigator, that location is revealed by turning it to its other side and placing a number of clues on it equal to its clue value (this may occur during setup). Most clue values are conveyed as a "per investigator" (Inv) value.
+    - A location with its shroud/clue value side faceup is in the "revealed" state.
 *** Massive
+    Massive is a keyword ability. A ready enemy with the massive keyword is considered to be engaged with each investigator at the same location as it.
+    - An exhausted enemy with the massive keyword is not considered to be engaged with any investigators.
+    - An enemy with the massive keyword cannot be placed in an investigator's threat area.
+    - When an enemy with the massive keyword attacks during the enemy phase, resolve its (full) attack against each investigator it is engaged with, one investigator at a time. The lead investigator chooses the order in which these attacks resolve. The massive enemy does not exhaust until its final attack of the phase resolves.
+    - When an enemy with the massive keyword makes an attack of opportunity, that attack only resolves agains the investigator who provoked the attack.
+    - A massive enemy does not move with an engaged investigator who moves away from the massive enemy's locaiton. 
+    - If an investigator fails a combat test against a massive enemy, no damage is dealt to the engaged investigators.
 *** May
+    The word "may" indicates that a specified player has the option to do that which follows. If no player is specified, the option is granted to the controller of the card with the ability in question.
 *** Modifiers
+    Some abilities cause values or quantities of characteristics to be modified. The game state constantly checks and (if necessary) updates the count of any vaiable value or quantity that is being modified.
+    Any time a new modifier is applied (or removed), the entire quantity is recalculated from the start, considering the unmodified base value and all active modifiers.
+    - When calculating a value, treat all modifiers as being applied simultaneously. However, while performing the calculation, all additive and subtractive modifiers are calculated before doubling and/or halving modifiers.
+    - Fractional values are rounded up after all modifiers have been applied.
+    - A quantity on a card (such as a stat, an icon, a number of instances of a trait or keyword) cannot be reduced so that it functions with a value below zero. Negative modifiers in excess of a value's current quantity can be applied, but, after all active modifiers have been applied, any resultant value below zero is treated as zero. (/For example: Danny tests agility and reveals a -8 chaos token. When applied to his agility of 4, this would reduce his skill value to -4. However, his agility cannot be reduced so that it functions with a value below zero. While the -8 modifier still exists, his agility is treated as zero. If Danny were to play "Lucky!" to recieve a +2 bonus to the test, this bonus would not be applied to the functioning skill value of zero; but rather, it is applied in ocnjunction with all active modifiers. Danny's agility would then be calculated as follows: base skill 4, -8 from chaos token, +2 from "Lucky!" for a total of -2, which is still treated as zero/)
 *** Move
+    Any time an entity (an investigator or enemy) moves, transfer that enemy card or investigator's mini card from its current location to a different location.
+    - Unless otherwise specified by the move effect or ability, the moving entity must move to a connecting location. Connecting locations are identified on the location card representing the entity's current location, as shown below.
+    - Any time an entity moves, it is considered to leave the previous locaiton, and to enter the new location, simultaneously.
+    - If an enemy is "moved to..." a specific location, the entity is moved directly to that location, and does not pass through other locations en route.
+    - If an investigator moves to an unrevealed location, that location is revealed by turning it to its other side, and placing a number of clues on it equal to its clue value. Most clue values are conveyed as a "per investigator" (Inv) value.
+    - If an enemy moves to an unrevealed location, that location remains unrevealed.
+    - Game elements (tokens or cards) may also be moved by card abilities from one card to another, or from one game area to another game area.
+    - When an entity or game element moves, it cannot move to its same (current) placement. If there is not valid destination for a move, the move cannot be attempted.
 *** Move Action
+    "Move" is an action an investigator may take during his or her turn in the investigation phase.
+    When an investigator takes this action, move that investigator (using his or her mini card) to any other location that is markd a connecting location on his or her current location (see Move).
 *** Mulligan
+    After a player draws a starting hand during setup, that player has a single opportunity to declare a mulligan on any number of the drawn cards he or she does not wish to keep in his or her starting hand. These cards are set aside, and an equivalent number of cards are drawn and added to the player's starting hand. The set-aside cards are then shuffled back into the player's deck.
+    - Players take or forgo the opportunity to mulligan in player order.
 *** Must
+    If an investigator is instructed that he or she "must" choose among multiple options, the investigator is compelled to choose an option that has the potential to change the game state.
+    - In the absence of the word "must" while choosing among multiple options, any option may be chosen upon the resolution of the effect - even an option that does not change the game state.
 *** Mythos Phase
+    See Mythos Phase
 *** Nearest
+    Some card abilities reference the "nearest" entity. Nearest refers to the entity of the specified kind at a location that can be reached in the fewest number of connections, even if one or more of those conections are blocked by another card ability. The path to the nearest entity is the "shortest" path to that entity.
 *** Ownership and Control
+    A card's owner is the player whose deck (or game area) held the card at the start of the game.
+    A player controls the cards located in his or her out-of-play game area (such as the hand, deck, discard pile).
+    The scenario controls the cards in its out-of-play game areas (such as the encounter, act, and agenda deck, and the encounter discard pile).
+    - Cards by default enter play under their owner's control. Some abilities may cause cards to change control during a game.
+    - If a card would enter an out-of-play area that does not belong to the card's owner, the card is physically placed in the owner's equivalent out-of-play area instead. The card is considered to have entered its controller's out-of-play area, and only the physical placement of the card is adjusted.
 *** Parley
+    Some abilities are identified with a *Parley* action designator. Such abilities are initiated using the "Active" action (see Activate Action).
 *** Per Investigator
+    When the Inv symbol appears after a value, that value is multiplied by the number of investigators who started the scenario.
+    - The "per investigator" multiplication is done before all other modifiers, and the product of this muliplication is treated as the pnted value of the card.
+    - Text that uses the phrase "per investigator" also counts the number of investigators who started the scenario, and is applied before al other modifiers.
+    - If investigators have been eliminated from the scenario, they still count toward "per investigator" values.
 *** Peril
+    Peril is a keyword ability.
+    While resolving the drawing of an encounter card with the peril keyword, an investigator cannot confer with the other players. Those players cannot play cards, trigger abilities, or commit cards to that investigator's skill test(s) while the peril encounter is resolving. 
 *** Permanent
+    Permanent is a deckbuilding keyword ability.
+    - A card with the permanent keyword does not count towards your deck size.
+    - A card with the permanent keyword still counts as being part of your deck and must therefore adhere to all other deckbuilding restrictions.
+    - A card with the permanent keyword starts each game in play and is not shuffled into your investigator deck during setup.
+    - A card with the permanent keyword cannot be discarded by any means.
 *** Play
+    To play a card, an investigator must pay the card's resource cost and meet any applicable play restrictions and conditions. Most cards can only be played by taking a play action (see Play Action).
+    A card with the fast keyword is not played during a play action. Such a card may be played any time its specified triggering condition is met or, if it has no triggering condition, during an appropriate player window (see Fast).
+    Any time an event card is played, its effects are resolved and it is then placed in its owner's discard pile.
+    Any time an asset is played, it is placed in the investigator's play area and remains in play until an ability or game effect causes it to leave play. Most assets take up one or more slots while in play (see Slots).
+    Skill cards are not be "played". These cards are /commited/ to a skill test from a player's hand in order to use their abilities.
+    See also: Initiation Sequence, Play Restrictions, Permissions, and Instructions.
 *** Play Action
+    "Play" is an action an invetigator may take during his or her turn in the investigation phase.
+    When an investigator takes this action, that investigator selects an asset or event card in his or her hand, pays its resource cost, and plays it (see Play).
+    - Cards with the "fast" keyword are not played by using this action (see Fast).
+    - Skill cards are not "played". These cards are /commited/ to a skill test from a player's hand in order to use their abilities.
 *** Play Restrictions, Permissions, and Instructions
+    Many cards and abilities contain specific instructions pertaining to when or how they may or may not be used, or to specific conditions that must be true in order to use them. In order to use such an ability or to play such a card, its play restrictions must be observed.
+    A permission allows a player to play a card or use an ability outside the timing specifications provided by the game rules.
+    A play instruction describes the timing point at which, and/or time period during which, an event card may be played.
 *** Prey
+    Given the opportunity, some enemies will pursue a defined investigator. These enemies are identified with the bold word "*prey*" in their text box, followed by instructions on who they should engage.
+    - If an enemy that is about to automatically engage an investigator at its locations has multiple options of whom to engage, that enemy engages the investigator who best meets its "prey" instructions (if multiple investigators are tied in meeting these instructions, the lead investigator may decide among them) (see Enemy Engagement).
+    - If an enemy that is moving towards the nearest investigator has a choice between multiple equidistant investigators, that enemy must select among those investigators the one who best meets its "prey" instructions. (If multiple equidistant investigators meet the prey criteria, the lead investigator decides among those investigators. see Hunter).
+    - If an enemy's prey instructions contain the word "only", that enemy only moves towards and engages that investigator (as if it were the only investigator in play), and ignores all other investigators may use the engage action or card abilities to engage the enemy.
+    - Prey has no immediate effect on where an enemy will spawn (see Spawn).
+    - Prey has no immediate effect on where an enemy will spawn (see Spawn).
 *** Printed
+    The word "printed" refers to the text, characteristic, icon, or value that is physically printed on the card.
 *** Priority of Simultaneous Resolution
+    If an effect affects multiple players simultaneously, but the players must individually make choices to resolve the effect, these choices are made in player order. Once all necessary choices have been made, the effect resolves simultaneously upon all affected entities.
+    - If tow or more foreced abilities (including delayed effects) would resolve at the same time, the lead investigator determines the order in which the abilities resolve.
+    - If two or more constant abilities and/or lasting effects cannot be applied simultaneously, the lead investigator determines the order in which they are applied.
 *** Put into Play
+    Some card abilities cause a card to be "put into play". such abilities place the card directly into play from an out-of-play state.
+    - The resource cost of a card being put into play *is not paid*.
+    - Unless otherwise stated by the put into play ability, cards that enter play in this manner must do so in a play area that satisfies the standard game rules associated with playing or drawing (for encounter cards) that card.
+    - A card that has been put into play is not considered to have been played or drawn.
 *** Qualifiers
+    If card text includes a qualifier followed by multiple terms, the qualifier applies to each term in the list. (/For example, in the phrase "each unique ally and item," the word "unique" is a qualifier that applies both to "ally" and to "item"./)
 *** Ready
+    A card that is in an upright state so that its controller can read its text from left to right is considered ready.
+    - The default state in which cards enter play is ready.
+    - When an eshausted card readies, it is returned to the upright state. It is then said to be in a ready state.
+    - A ready card cannot ready again (it must first be exhausted, typically by a game step or card ability).
 *** Removed from Game
+    A card that has been removed from the game is placed away from the game area and has no further interaction with the game in any manner for the duration of its removal.
+    If there is no specified duration, a card that has been removed from the game is considered removed until the end of the game.
 *** Resign
+    Some abilities are identified with a *Resign* action designator. Such abilities are initiated using the "Activate" action (see "Activate Action").
+    - When an investigator resings, the investigator is eliminated by resignation (see "Elimination"). An investigator who resigns is not considered to have been defeated.
 *** Resource Action
+    "Resource" is an action investigator may take during his or her turn in the investigation phase.
+    When an investigator takes this action, that investigator gains one resource by taking it form the token pool and adding it to his or her resource pool.
 *** Resources
+    Resources represent the various means of acquiring new cards at an investigator's disposal - supplies, money, tools, knowledge, spell components, etc.
+    - In order to play a card or use an ability that costs resources, an investigator must pay that card or ability's resource cost by taking the specified number of resources from his or her resource pool and returning them to the token pool.
+    - Resources can be gained by performing the "Resource" action (see Resource Action).
+    - Investigators acquire one resource during each Upkeep phase.
+    Also See: "Tokens, Running out of"
 *** Retaliate
+    Retaliate is a keyword ability.
+    Each time an investigator fails a skill test while attacking a ready enemy with the retaliate keyword, after applying all results for that skill test, that enemy performs an attack agains the attacking investigator. An enemy does not exhaust after performing a retaliate attack.
+    - This attack occurs whether the enemy is engaged with the attacking investigator or not.
 *** Revelation
+    A revelation ability may appear on encounter cards or on weakness cards.
+    - When an investigator draws an encounter card, that investigator must resolve all "*Revelation*" abilities on the card. This occurs before the card enters play, or in the case of a treachery card, before it is placed in the discard pile.
+    - When a weakness card enters an investigator's hand, that investigator must immediately resolve all revelation abilities on the card as if it were just drawn.
 *** Sanity and Horror
+    Sanity represents a card's mental and emotional fortitude. Horror tracks the harm that has been done to a card's psyche by exposure to the Mythos.
+    - When a card takes horror, place a number of horror tokens equal to the amount of horror just taken on the card (see Dealing Damage/Horror)
+    - If an investigator has horror on him or her equal to or greater than his or her sanity, that investigator is defeated. When an investigator is defeated, he or she is eliminated from the scenario (see Elimination).
+    - In campaign play, an investigator that is defeated by taking horror equal to his or her sanity suffers 1 mental trauma. Taking mental trauma may cause an investigator to be driven *insane*
+    - If an asset with a sanity valve has horror on it equal to or greater than its sanity, it is defeated a placed on its owner's discard pile.
+    - A card's "remaining sanity" is its base sanity minus the amount of horror on that card, plus or minus any active sanity modifiers.
+    - An asset card without a sanity value is not considered to have a sanity of 0, cannot gain sanity, and cannot have horror assigned to it.
+    See also: Direct Damage, Direct Horror.
 *** Set Aside
+    Some scenarios instruct the players to set aside specific cards. Set-aside cards have no interaction with the game until they are referenced by instructions within the scenario or by a card ability.
 *** Search
+    When a player is instructed to search for a card, that player is permitted to look at all of the cards in the searched area without revealing those cards to the other players.
+    - If an effect searches an entire deck, the deck must be shuffled upon completion of the search.
+    - When resolving a search effect, a player is obligated to find the object of the search should one more eligible options bo found within the searched area.
+    - While cards are in the process of being searched, they are not considered to have left their game area of origin.
 *** Self-Referential Text
+    When a card's ability text refers to its own title, it is referring to itself only, and not to other copies (by title) of the card.
+    Self-referential abilities using the word "this" (e.g. "this card") refer only to the card on which the ability is located, and not to copies of that card.
 *** Skill Cards
+    Skill cards represent innate or learned attributes or character traits that improve an investigator's skill tests.
+    Skill cards are not played from a player's hand. In order to resolve their abilities, skill cards must be /committed/ to a skill test.
+    If a skill card is committed to a skill test, its ability may be used during the resolution of that skill test, as specified on the card.
+    See Skill Test Timing
 *** Skill Tests
+    A number of situations in the game require an investigator to make a skill test, using one of his or her four skills: willpower (W), intellect (I), combat (C), or agility (A). A skill test pitsthe investigator's value in a specified skill against a difficulty value that is determined by the ability or game step that initiated the test. The investigator is attempting to match or exceed this difficulty value in order to succeed at the test.
+    A skill test is often referred to as a test of the specified skill. (/For example: "agility test", "combat test", "willpower test", or "intellect test"/)
+    See Skill Test Timing
 *** Slots
+    Each investigator has a number of specific slots that can be filled at any given moment. Each asset in an investigator's play area or threat area with a slot symbol is held in a slot of that type. Slots limit the number of asset cards the investigator is permitted to have in play simultaneously.
+    The slots normally available to an investigator are:
+    - *1 Accessory Slot*
+    - *1 Body Slot*
+    - *1 Ally Slot*
+    - *2 Hand Slots*
+    - *2 Arcane Slots*
+    If an asset has no slot symbols on it, it does not take up any of the above slots. There is no limit to the number of slot-less assets an investigator can have in play. The symbols to depict which slot an asset fills are printed on the card as: Accessory (necklace), Body (torso), Ally (investigator), 1 Hand (1 hand), 2 Hand (2 hands), 1 Arcane (1 star), 2 Arcane (2 stars).
+    If an investigator is at his or her slot limit for a type of asset and wishes to play or gain control of a different asset that would use that slot, the investigator must choose and discard other assets under his or her control simultaneously with new asset entering the slot.
 *** Spawn
+    Some enemies, when drawn from the encounter deck, spawn in a particular location, indicated by a bold "*spawn*" instruction in the text box.
+    - An enemy's spawn instruciton resolves as the enemy enters play, regardless of how it entered play.
+    - If an enemy has no spawn instruction, it spawns engaged with the investigator who drew it.
+    - If an enemy has no legal locaiton to spawn at (for example, if its spawn instruction directs it to a specific location that is not in play, or if no location in play satisfies its "spawn" instruction), it does not spawn, and is discarded instead.
+    - If an enemy's spawn instruction has multiple valid locations, the investigator spawning that enemy decides among those locations.
+    - If a card ability instructs the players to spawn an enemy in a particular location (/For example: "Search the encounter deck for an Acolyte and spawn it in Southside"/), treat the ability causing the card to enter play as the enemy's spawn instruction, overriding any other spawn instruction.
 *** Standalone Mode
+    When playing a standalone game (i.e. playing a single scenario as a one-off adventure, removed from its campaign), the following rules apply:
+    - When building a deck for a standalone game, an investigator may use higher level cards in his or her deck (so long as they ovserve the deckbuilding restrictions of the investigator) by counting the total experience of all the higher level cards used in the deck, and taking additional random basic weaknesses based on the following.
+      - 0-9 experience: 0 additional random basic weaknesses
+      - 10-19 experience: 1 additional random basic weaknesses
+      - 20-29 experience: 2 additional random basic weaknesses
+      - 30-39 experience: 3 additional random basic weaknesses
+      - 40-49 experience: 4 additional random basic weaknesses
+      A player cannot include 50 or more experience worth of cards in a standalone deck.
+    - After choosing a scenario to play, refer to the Campaign Guide for the campaign that scenario is part of, starting at the setup for that campaign, and continuing on to the first scenario for that campaign. Read through that scenario's introduction, then skip directly to that scenario's resolution and choose a resolution that is amenable to you. You may choose any resolution you wish. (For an added challenge, choose resolutoins that put the investigators in an unfavorable state). If the players are unsure which resolution to choose, or are indifferent, choose *Resolution 1*. Record the results of the chosen resolution in a Campaign Log as if you were playing through in campign mode, *except do not count experience points*.
+    - Repeat this process for each scenario up to the scenario you wish to play. Then, setup and play that scenario as normal.
+    - If a story decision would occur during gameplay, choose the outcome and record it in your campaign log.
+    - Do not apply trauma for having been defeated during gameplay, but if trauma is inflicted during a scenario resoluiton, apply it.
+    - if a scenario weakness or asset is earned that is in an expansion you do not own, simply continue without that card.
 *** Surge
+    Surge is a keyword ability.
+    After drawing and resolving an encounter with the surge keyword, an investigator must draw another card from the encounter deck.
+    - If a card with the surge keyword is drawn during setup, the surge keyword does resolve.
 *** Taking Damage/Horror
+    "Take X damage" is shorthand for "deal X damage to your investigator". "Take X horror" is shorthand for "deal X horror to your investigator".
+    See Dealing Damage/Horror
 *** Target
+    The term "choose" indicates that one or more targets must be chosen in order for an ability to resolve. The player resolving the ability must choose a game element (usually a card) that meets the targeting requirements of the ability.
+    - If an ability requires the choosing of a target, and there is no valid target (or not enough valid targets), the avility cannot be initiated.
+    - If multiple targets are required to be chosen by the same player, they are chosen simultaneously.
+    - An effect that can choose "any number" of targets does not successfully resolve (and cannot change the game state) if zero of those targets are chosen.
+    - A card is not eligible target for an ability if the resolution of that ability's effect could not change the target's state. (/For example, an exhausted enemy could not be chosen as the target of an effect that reads, "choose and exhaust an enemy."/)
 *** Then
+    If the effect of an ability includes the word "then", the text preceding the word "then" must be successfully resolved in full before the remainder of the effect described after the word "then" can be resolved.
+    - If the pre-then aspect of an effect does successfully resolve in full, the post-then aspect of the effect must also resolve.
+    - The post-then aspect of an effect has timing priority over all other indirect consequences of the resolution of the pre-then aspect. (/For example, if an effect reads: "Draw an encounter card. Then, take 1 horror", and a player controls an ability that reads "After you draw an encounter card", the post-then "take 1 horror" aspect occurs before the "After you draw an encounter card" ability may initiate./)
+    - If the pre-then aspect of an effect does not successfully resolve in full, the post-then aspect does not resolve.
 *** Threat Area
+    An investigator's threat area is a play area in which encounter cards currently engaged with and/or affecting an investigator are placed.
+    - The cards in an investigator's threat area are at the same location as the investigator.
 *** Tokens, Running out of
+    There is no limit to the number of tokens (of any type) which can be in the game area at a given time. If players run out of the provided tokens, other tokens, counters, or coins may be used to track the current game state.
 *** Traits
+    Most cards have one or more traits listed at the top of the text box and printed in bold italics.
+    - Traits have no inherent effect on the game. Instead, some card abilities reference cards that possess specific traits.
 *** Trauma
+    See Campaign Play
 *** Treachery Cards
+    Treachery cards represent curses, afflictions, madnesses, obstacles, disasters, or other unexpected occurrences an investigator may encounter throughout the course of a scenario.
+    When a treachery card is drawn by an investigator, that investigator must resolve its effects. Then, place the card in its discard pile unless otherwise instructed by the ability.
 *** Triggered Abilities
+    A triggered ability is an ability that is optionally triggered by a player. A triggered ability can be identified by one of the following icons. 
+    - The ATA icon indicates an action-costed triggered ability.
+    - the FTA icon indicates a free triggered ability that does not cost an action and may be used during any player window.
+    - The RTA icon indicates a reaction triggered ability that does not cost an action and may be used any time its triggering condition is met.
+    See also: Ability, Initiation Sequence
 *** Triggering Condition
-*** Unique (*)
+    A tiggering condition indicates the timing point at which an ability may be triggered. Most triggering conditions use the word "when" or "after" to establish their relation to the specified timing point.
+    - Each eligible ability that triggers in reference to a specified timing point may be used once each time that timing point occurs.
+    - If multiple instances of the same ability are eligible to initiate, each instance may be used once.
+    See also: Ability, After, When
+*** Unique (\*)
+    A card with the \* symbol before its card title is a unique card. There can be no more than one instance of each unique card, by title, in play at any given time.
+    - A player cannot bring into play a unique card if a copy of that card (by title) is already in play.
+    - If a unique encounter card that shares a title with a unique player card that would enter play, discard the player card simultaneously as the encounter card enters play.
 *** Upkeep Phase
+    See Upkeep Phase
 *** Uses (X "type")
+    Uses is a keyword ability.
+    When a card bearing this keyword enters play, place a number of resource token equal to the value (X), from the token pool, on the card. The word following the value establishes and identifies the type of uses this card bears. The resource tokens placed on the card are considered uses of the established type, and are not considered resource tokens.
+    - Each card bearing this keyword also has an ability which references the type of use established by the keyword as a part of its cost. When such an ability spends a use, a token or that type must be removed from the card bearing the ability.
+    - Other cards may reference and interact with uses of a specified type, usually by adding uses of that type to a card, or using uses of that type for other purposes.
+    - A card cannot bear uses of a type other than that established by its own "Uses (X type)" keyword. (/For example, a card with  "Uses (4 ammo)" cannot gain charges/)
+    - Some cards with this keyword vear text that cause the card to be discarded if it has no uses remaining. If the card contains no such text, it remains in play even if out of uses.
 *** Vicorty Display, Victory Points
+    Some encounter cards are worth victory points. The text *Victory X* indicates that a card is worth X victory points.
+    An encounter card worth victory points that is overcome by the investigators is soted in the victory display until the end of the scenario. The victory display is an out-of-play game area shared by all players. Upon completion of the scenario, the cards in the victory display provide experience, which can be used to upgrade an investigator's deck (see Campaign Play).
+    - As a victory point enemy is defeated, place the card in the victory display instead of in the discard pile.
+    - At the end of a scenario, place each victory point location that is in play, revealed, and with no clues on it in the victory display.
+    - As a victory point treachery card completes its resolution, place it in the victory display instead of in the discard pile.
 *** Weakness
+    Weakness is a card sub-type. These cards represent character flaws, curses, madnesses, injuries, tasks, enemies, or story elements that are part of an investigator's backstory, or that are acquired over the course of a campaign. Weakness cards are resolved differently depending upon their cardtype.
+    - When an investigator draws a weakness with an encounter cardtype (/for example, an enemy or a treachery weakness/), resolve that card as if it were just drawn from the encounter deck.
+    - When an investigator draws a weakness with a player cardtype (/for example, an asset, an event, or a skill weakness/), resolve any Revelation effects on the card, and add it to that investigator's hand. The card may then be used as any other player card of its type.
+    - If a weakness enters an investigator's hand in a manner that did not involve drawing the card, that investigator must resolve the card (including any Revelation abilities) as if he or she had just drawn it.
+    - The bearer of a weakness is the investigator who started the game with the weakness in his or her deck or play area.
+    - If a weakness is added to a player's deck or hand during the play of a scenario, that weakness remains part of that investigator's deck for the rest of the campaign. (Unless it is removed from the campaign by a card ability or scenario resolution)
+    - A player may not optionally choose to discard a weakness car from hand, unless a card explicity specifies otherwise.
+    - Weaknesses with an encounter cardtype are, like other encounter cards, not controlled by any player. Weaknesses with a player cardtype are controlled by their bearer.
+    - Some card and game text references a "basic weakness." A basic weakness can be identified by the presence of the words "Basic Weakness" and the symbol.
+*** When
+    The word "when" refers to the moment immediately after the specified timing point or triggering condition initiates, but before its impact upon the game state resolves. The resolution of a "when" ability interrupts the resolution of its timing point or triggering condition. (/For example, an ability that reads "When you draw an enemy card" initiates immediately after you draw the enemy card, but before resolving its revelation ability, spawning it, etc./)
+    See also: Ability, Priority of Simultaneous Resolution
 *** Winning and Losing
+    
 *** The letter 'X'
 *** You/Your
     - An ability on a card in play referencing "you" or "your" refers to the investigator who controls, is engaged with, or is currently interacting with the card.
