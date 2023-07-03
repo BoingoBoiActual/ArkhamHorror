@@ -1132,7 +1132,60 @@ Some abilities have bold action designators (such as Fight, Evade, Investigate, 
    *12. Set act deck.* Assemble the act deck in sequential order, with the art side faceup, so that "act 1a" is on top. Read the story text on act 1a.
    *13. Place the scenario reference card next to the agenda deck.* There are no action windows during setup. Players may only trigger player card abilities or play cards from hand during setup if the card or ability's specific triggering condition is met.
 ** Appendix 4: Card Anatomy
-   
+   This section presents the locaiton of different pieces of scenario cards and investigator cards.
+   Scenario cards include act cards, agenda cards, location cards, treachery cards, enemy cards, and scenario reference cards.
+   Player cards include investigator cards, investigator mini cards, event cards, and skill cards.
+
+   *Scenario Card Anatomy Key*
+   1. *Encounter Set Symbol:* Indicates which encounter set the card belongs to.
+   2. *Cardtype:* Indicates how a card behaves or may be used in the game.
+   3. *Title:* The name of this card.
+   4. *Traits:* Flavorful attributes that may be referenced by card abilities.
+   5. *Ability:* This card's specialized means of interacting with the game.
+   6. *Enemy Fight Value:* Determines the difficulty of a skill test to attack this enemy.
+   7. *Enemy Health Value:* This enemy's health value, which measures its physical durability.
+   8. *Enemy Evade Value:* Determines the difficulty of a skill test to evade this enemy.
+   9. *Damage:* The amount of damage this enemy deals with its attack.
+   10. *Horror:* The amount of horror this enemy deals with its attack.
+   11. *Shroud:* Determines the difficulty of a skill test to investigate this location.
+   12. *Clue Value:* The number of clues placed on this location when it is first revealed.
+   13. *Connection Symbols:* Indicates the movement connections between locations.
+   14. *Act/Agenda Sequence:* Used to order the act/agenda deck.
+   15. *Clue Threshold:* The number of clues that must be spend to advance this act.
+   16. *Doom Threshold:* The amount of doom in play required to advance this agenda.
+   17. *Product Set Information:* Indicates this card's product of origin.
+   18. *Encounter Set Number:* Indicates the number of cards within an encounter set, and this card's place within that set.
+
+   *Unrevealed Location:* Top-3; Center-2; Bottom;13
+   *Location:* Top Left-13; Top-3; Center Left-11; Center-2; Center Right-12; Bottom-13; Bottom Right-18
+   *Agenda Side a:* Top-14; Center-3; Bottom Left-16
+   *Act Side a:* Top-14; Center-3; Bottom Right-15
+   *Agenda Side b:* Top Left-14; Center Left-3
+   *Act Side b:* Top Left-14
+   *Treachery:* Center High-1; Center Italics-4; Center Body-5
+   *Enemy:* Top Left-6; Top Center-7; Top Right-8; Center Left-9; Center Right-10
+
+   *Player Card Anatomy Key*
+   1. *Cost:* The resource cost to play a card.
+   2. *Level:* The amount of experience required to purchase this card for a deck.
+   3. *Cardtype:* Indicates how a card behaves or may be used in the game.
+   4. *Class Symbol:* The class to which a card belongs. Neutral cards have to class symbol.
+   5. *Title:* The name of this card.
+   6. *Subtitle:* A secondary identifier for a card.
+   7. *Skills:* This investigator's value for his or her skills, in order: Willpower (W), Intellect (I), Combat (C), Agility (A).
+   8. *Traits:* Flavorful attributes that may be referenced by card abilities. 
+   9. *Ability:* This card's specialized means of interacting with the game.
+   10. *Elder Sign Ability:* This investigator's ability for the Elder Sign (ES) token.
+   11. *Health:* This card's health value, which measures its physical durability.
+   12. *Sanity:* This card's sanity value, which measures its mental durability.
+   13. *Skill Test Icons:* Modify skill value whild committed to a test.
+   14. *Product Set Information:* Indicates this card's product of origin.
+
+   *Investigator Mini Card*
+   *Investigator:* Top Left-4; Top Center-5; Top Right-7; Center Italics-8 Center Body-9,10; Bottom Left-11; Bottom Right-12
+   *Asset:* Top Left-1,5; Top Center-6; Bottom Left-11; Bottom Right-12
+   *Event:* Top Right-3; Center-4; Center Italics-8;
+   *Skill:* Top Right-13; Top Center-5; Center Body-9; Bottom Right-14
 * Investigator Additional Rules
 ** Customizable
    Customizable is a keyword that appears on some player cards in this expansion. Customizable cards might seem unremarkable at first, but have tremendous potential for improvement over the course of a campaign. By spending experience points, each one can be custom-tailored to become a powerful tool in an investigator's deck.
